@@ -1,4 +1,4 @@
-const { initDb, run } = require('./db');
+const { initDb, run, get, pool } = require('./db');
 const fs = require('fs');
 const path = require('path');
 
@@ -38,19 +38,22 @@ async function seed() {
   // Insert subjects
   let sortOrder = 0;
   for (const [id, s] of subjects) {
-    run('INSERT OR REPLACE INTO subjects (id, name_he, name_en, icon, sort_order) VALUES (?, ?, ?, ?, ?)',
-      [s.id, s.name_he, s.name_en, s.icon, sortOrder++]);
+    await run(
+      `INSERT INTO subjects (id, name_he, name_en, icon, sort_order) VALUES ($1, $2, $3, $4, $5)
+       ON CONFLICT (id) DO UPDATE SET name_he = $2, name_en = $3, icon = $4, sort_order = $5`,
+      [s.id, s.name_he, s.name_en, s.icon, sortOrder++]
+    );
   }
   console.log(`Inserted ${subjects.size} subjects`);
 
   // Clear existing questions
-  run('DELETE FROM questions');
+  await run('DELETE FROM questions');
 
   // Insert questions
   for (const q of questions) {
-    run(
+    await run(
       `INSERT INTO questions (subject_id, type, question_he, question_en, options_he, options_en, correct, explanation_he, explanation_en, status)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'approved')`,
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, 'approved')`,
       [
         q.subject_id, q.type, q.question_he, q.question_en,
         q.options_he ? JSON.stringify(q.options_he) : null,
@@ -63,6 +66,7 @@ async function seed() {
 
   console.log(`Inserted ${questions.length} questions`);
   console.log('Seed complete!');
+  await pool.end();
   process.exit(0);
 }
 
