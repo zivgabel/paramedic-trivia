@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paramedic Trivia | טריוויה לפרמדיקים</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-content">
+        <h1 class="logo">🚑 <span>Paramedic Trivia</span></h1>
+        <div class="header-actions">
+          <button class="btn-icon" id="langToggle" title="Switch Language">🌐</button>
+          <button class="btn-secondary" id="leaderboardBtn">🏆 <span data-i18n="leaderboard">טבלת מובילים</span></button>
+          <button class="btn-text" id="submitQuestionBtn">📝 <span data-i18n="submit_question">הגש שאלה</span></button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main screens -->
+    <main class="main">
+      <!-- Home / Subject Selection -->
+      <section id="screen-home" class="screen active">
+        <div class="hero">
+          <h2 data-i18n="choose_subjects">בחרו נושאים לתרגול</h2>
+          <p data-i18n="choose_desc">סמנו נושא אחד או יותר והתחילו לשחק</p>
+        </div>
+
+        <div class="subject-grid" id="subjectGrid"></div>
+
+        <div class="round-config" id="roundConfig" style="display:none">
+          <h3 data-i18n="how_many">כמה שאלות?</h3>
+          <div class="round-options">
+            <button class="round-btn" data-count="10">10</button>
+            <button class="round-btn active" data-count="20">20</button>
+            <button class="round-btn" data-count="0" data-i18n="all">הכל</button>
+          </div>
+          <button class="btn-primary btn-large" id="startBtn">
+            <span data-i18n="start_game">התחילו!</span> 🎮
+          </button>
+        </div>
+      </section>
+
+      <!-- Quiz -->
+      <section id="screen-quiz" class="screen">
+        <div class="quiz-header">
+          <div class="quiz-progress">
+            <span id="questionNum">1</span> / <span id="totalQuestions">20</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+          <div class="quiz-score">
+            <span data-i18n="score">ניקוד</span>: <span id="currentScore">0</span>
+          </div>
+          <div class="quiz-timer" id="quizTimer">00:00</div>
+        </div>
+
+        <div class="question-card" id="questionCard">
+          <div class="question-subject" id="questionSubject"></div>
+          <div class="question-type-badge" id="questionTypeBadge"></div>
+          <h3 class="question-text" id="questionText"></h3>
+          <div class="options-container" id="optionsContainer"></div>
+          <div class="explanation" id="explanation" style="display:none">
+            <div class="explanation-icon" id="explanationIcon"></div>
+            <p id="explanationText"></p>
+          </div>
+          <button class="btn-primary" id="nextBtn" style="display:none" data-i18n="next">הבא →</button>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section id="screen-results" class="screen">
+        <div class="results-card">
+          <div class="results-emoji" id="resultsEmoji"></div>
+          <h2 data-i18n="game_over">סיום משחק!</h2>
+          <div class="results-score">
+            <span id="finalScore">0</span> / <span id="finalTotal">20</span>
+          </div>
+          <div class="results-percentage" id="resultsPercentage">0%</div>
+          <div class="results-time" id="resultsTime"></div>
+
+          <div class="save-score" id="saveScore">
+            <input type="text" id="playerName" placeholder="השם שלך / Your Name" maxlength="30">
+            <button class="btn-primary" id="saveScoreBtn" data-i18n="save_score">שמור תוצאה</button>
+          </div>
+          <div class="results-actions">
+            <button class="btn-primary" id="playAgainBtn" data-i18n="play_again">שחקו שוב</button>
+            <button class="btn-secondary" id="backHomeBtn" data-i18n="back_home">חזרה לתפריט</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Leaderboard -->
+      <section id="screen-leaderboard" class="screen">
+        <div class="leaderboard-card">
+          <h2>🏆 <span data-i18n="leaderboard">טבלת מובילים</span></h2>
+          <div class="leaderboard-table-wrap">
+            <table class="leaderboard-table" id="leaderboardTable">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th data-i18n="name">שם</th>
+                  <th data-i18n="score">ניקוד</th>
+                  <th>%</th>
+                  <th data-i18n="time">זמן</th>
+                </tr>
+              </thead>
+              <tbody id="leaderboardBody"></tbody>
+            </table>
+          </div>
+          <button class="btn-secondary" id="lbBackBtn" data-i18n="back_home">חזרה</button>
+        </div>
+      </section>
+
+      <!-- Submit Question -->
+      <section id="screen-submit" class="screen">
+        <div class="submit-card">
+          <h2>📝 <span data-i18n="submit_question">הגישו שאלה</span></h2>
+          <form id="submitForm">
+            <div class="form-group">
+              <label data-i18n="subject">נושא</label>
+              <select id="submitSubject" required></select>
+            </div>
+            <div class="form-group">
+              <label data-i18n="question_type">סוג שאלה</label>
+              <select id="submitType">
+                <option value="multiple_choice">בחירה מרובה / Multiple Choice</option>
+                <option value="true_false">נכון/לא נכון / True/False</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>שאלה בעברית</label>
+              <textarea id="submitQuestionHe" required rows="2"></textarea>
+            </div>
+            <div class="form-group">
+              <label>Question in English</label>
+              <textarea id="submitQuestionEn" required rows="2"></textarea>
+            </div>
+            <div id="mcOptions">
+              <div class="form-group">
+                <label>תשובות בעברית (סמנו את הנכונה)</label>
+                <div class="option-inputs" id="optionsHeInputs"></div>
+              </div>
+              <div class="form-group">
+                <label>Options in English</label>
+                <div class="option-inputs" id="optionsEnInputs"></div>
+              </div>
+            </div>
+            <div id="tfCorrect" style="display:none">
+              <div class="form-group">
+                <label data-i18n="correct_answer">תשובה נכונה</label>
+                <select id="submitTfCorrect">
+                  <option value="true">נכון / True</option>
+                  <option value="false">לא נכון / False</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>הסבר בעברית</label>
+              <textarea id="submitExplHe" rows="2"></textarea>
+            </div>
+            <div class="form-group">
+              <label>Explanation in English</label>
+              <textarea id="submitExplEn" rows="2"></textarea>
+            </div>
+            <div class="form-group">
+              <label data-i18n="your_name">השם שלך</label>
+              <input type="text" id="submitAuthor" placeholder="אופציונלי / Optional">
+            </div>
+            <button type="submit" class="btn-primary" data-i18n="submit">שלח</button>
+            <button type="button" class="btn-secondary" id="submitBackBtn" data-i18n="back_home">חזרה</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

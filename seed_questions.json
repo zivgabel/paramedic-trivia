@@ -1,0 +1,3067 @@
+[
+  {
+    "subject_id": "water_electrolytes",
+    "subject_name_he": "משק המים והאלקטרוליטים",
+    "subject_name_en": "Water & Electrolyte Balance",
+    "type": "multiple_choice",
+    "question_he": "מה אחוז המים מכלל משקל הגוף?",
+    "question_en": "What percentage of body weight is water?",
+    "options_he": [
+      "40%",
+      "50%",
+      "60%",
+      "70%"
+    ],
+    "options_en": [
+      "40%",
+      "50%",
+      "60%",
+      "70%"
+    ],
+    "correct": 2,
+    "explanation_he": "60% ממשקל הגוף הוא מים. הנוזלים נעים בין כל חלקי הגוף, תאים, צנרת וחוץ תאיים.",
+    "explanation_en": "60% of body weight is water. Fluids move between all parts of the body, cells, vessels, and extracellular spaces."
+  },
+  {
+    "subject_id": "water_electrolytes",
+    "subject_name_he": "משק המים והאלקטרוליטים",
+    "subject_name_en": "Water & Electrolyte Balance",
+    "type": "multiple_choice",
+    "question_he": "איזה נוזל מהווה 45% ממשקל הגוף?",
+    "question_en": "Which fluid comprises 45% of body weight?",
+    "options_he": [
+      "נוזל חוץ תאי",
+      "נוזל תוך כלי",
+      "נוזל בין תאי",
+      "נוזל תוך תאי"
+    ],
+    "options_en": [
+      "Extracellular fluid",
+      "Intravascular fluid",
+      "Interstitial fluid",
+      "Intracellular fluid"
+    ],
+    "correct": 3,
+    "explanation_he": "הנוזלים התוך תאיים (ICF) מהווים 45% ממשקל הגוף ונמצאים בתוך תאי הגוף השונים.",
+    "explanation_en": "Intracellular fluid (ICF) comprises 45% of body weight and is found within various body cells."
+  },
+  {
+    "subject_id": "water_electrolytes",
+    "subject_name_he": "משק המים והאלקטרוליטים",
+    "subject_name_en": "Water & Electrolyte Balance",
+    "type": "true_false",
+    "question_he": "נתרן (Na+) הוא קטיון (יון חיובי) החשוב לפעילות השרירים והעברת זרם חשמלי.",
+    "question_en": "Sodium (Na+) is a cation important for muscle activity and electrical current transmission.",
+    "correct": true,
+    "explanation_he": "נתרן הוא קטיון (בעל מטען חיובי) והוא המרכיב העיקרי בלחץ האוסמוטי, חשוב לפעילות השרירים ולהעברת זרם חשמלי.",
+    "explanation_en": "Sodium is a cation (positively charged) and is the main component of osmotic pressure, important for muscle activity and electrical current transmission."
+  },
+  {
+    "subject_id": "water_electrolytes",
+    "subject_name_he": "משק המים והאלקטרוליטים",
+    "subject_name_en": "Water & Electrolyte Balance",
+    "type": "multiple_choice",
+    "question_he": "מה ריכוז הנתרן (Na+) בנוזל חוץ תאי בmmol/L?",
+    "question_en": "What is the sodium (Na+) concentration in extracellular fluid in mmol/L?",
+    "options_he": [
+      "100",
+      "125",
+      "145",
+      "170"
+    ],
+    "options_en": [
+      "100",
+      "125",
+      "145",
+      "170"
+    ],
+    "correct": 2,
+    "explanation_he": "ריכוז הנתרן בנוזל חוץ תאי הוא 145 mmol/L, המהווה את המרכיב העיקרי בלחץ האוסמוטי החוץ תאי.",
+    "explanation_en": "Sodium concentration in extracellular fluid is 145 mmol/L, which is the main component of extracellular osmotic pressure."
+  },
+  {
+    "subject_id": "water_electrolytes",
+    "subject_name_he": "משק המים והאלקטרוליטים",
+    "subject_name_en": "Water & Electrolyte Balance",
+    "type": "true_false",
+    "question_he": "ביקרבונט (HCO3-) הוא הבופר הראשון בגוף לאיזון רמת החומצה ונטרול יוני מימן.",
+    "question_en": "Bicarbonate (HCO3-) is the primary buffer in the body for acid balance and hydrogen ion neutralization.",
+    "correct": true,
+    "explanation_he": "ביקרבונט (HCO3-) הוא אניון חשוב שמהווה את הבופר הראשי בגוף לאיזון חומצה-בסיס.",
+    "explanation_en": "Bicarbonate (HCO3-) is an important anion that serves as the primary buffer in the body for acid-base balance."
+  },
+  {
+    "subject_id": "water_electrolytes",
+    "subject_name_he": "משק המים והאלקטרוליטים",
+    "subject_name_en": "Water & Electrolyte Balance",
+    "type": "multiple_choice",
+    "question_he": "מהי תמיסה איזוטונית?",
+    "question_en": "What is an isotonic solution?",
+    "options_he": [
+      "תמיסה עם ריכוז מומסים גבוה מהתאים",
+      "תמיסה עם ריכוז מומסים שווה לתאים",
+      "תמיסה עם ריכוז מומסים נמוך מהתאים",
+      "תמיסה עם חלבונים רבים"
+    ],
+    "options_en": [
+      "A solution with higher solute concentration than cells",
+      "A solution with solute concentration equal to cells",
+      "A solution with lower solute concentration than cells",
+      "A solution with many proteins"
+    ],
+    "correct": 1,
+    "explanation_he": "תמיסה איזוטונית היא תמיסה שבה ריכוז המומסים שווה לריכוז המומסים בתאים. דוגמה: סליין 0.9%.",
+    "explanation_en": "An isotonic solution has a solute concentration equal to that in cells. Example: 0.9% saline."
+  },
+  {
+    "subject_id": "water_electrolytes",
+    "subject_name_he": "משק המים והאלקטרוליטים",
+    "subject_name_en": "Water & Electrolyte Balance",
+    "type": "multiple_choice",
+    "question_he": "מה תפקידו העיקרי של אלבומין בפלזמה?",
+    "question_en": "What is the primary role of albumin in plasma?",
+    "options_he": [
+      "העברת חמצן",
+      "הדבקת דם",
+      "משיכת מים מנוזל בין תאי לפלזמה",
+      "הפרשת השינן"
+    ],
+    "options_en": [
+      "Oxygen transport",
+      "Blood clotting",
+      "Pulling water from interstitial fluid to plasma",
+      "Urea secretion"
+    ],
+    "correct": 2,
+    "explanation_he": "תפקידו העיקרי של אלבומין הוא להחזיר מים מתוך הנוזל הבין תאי לתוך הפלזמה באמצעות לחץ אוסמוטי.",
+    "explanation_en": "The primary role of albumin is to pull water from interstitial fluid back into plasma through osmotic pressure."
+  },
+  {
+    "subject_id": "water_electrolytes",
+    "subject_name_he": "משק המים והאלקטרוליטים",
+    "subject_name_en": "Water & Electrolyte Balance",
+    "type": "true_false",
+    "question_he": "אוסמוזה היא תהליך בו חומרים עוברים ממקום בעל ריכוז גבוה למקום בעל ריכוז נמוך.",
+    "question_en": "Osmosis is the process where substances move from high concentration to low concentration.",
+    "correct": false,
+    "explanation_he": "זה תיאור של דיפוזיה, לא אוסמוזה. אוסמוזה היא תהליך שבו מים עוברים ממקום בעל ריכוז מומסים נמוך למקום בעל ריכוז מומסים גבוה.",
+    "explanation_en": "This describes diffusion, not osmosis. Osmosis is the process where water moves from low solute concentration to high solute concentration."
+  },
+  {
+    "subject_id": "water_electrolytes",
+    "subject_name_he": "משק המים והאלקטרוליטים",
+    "subject_name_en": "Water & Electrolyte Balance",
+    "type": "multiple_choice",
+    "question_he": "כמה גרמים של אלבומין בגרם לעלייה לכל 100 מ״ל של פלזמה?",
+    "question_en": "How many grams of albumin per 100 mL of plasma?",
+    "options_he": [
+      "2 גרם",
+      "3 גרם",
+      "4 גרם",
+      "5 גרם"
+    ],
+    "options_en": [
+      "2 grams",
+      "3 grams",
+      "4 grams",
+      "5 grams"
+    ],
+    "correct": 2,
+    "explanation_he": "ריכוז אלבומין בפלזמה הוא 4 גרם לכל 100 מ״ל. הוא הקטן בגודלו מבין החלבונים בפלזמה.",
+    "explanation_en": "Albumin concentration in plasma is 4 grams per 100 mL. It is the smallest protein in plasma."
+  },
+  {
+    "subject_id": "water_electrolytes",
+    "subject_name_he": "משק המים והאלקטרוליטים",
+    "subject_name_en": "Water & Electrolyte Balance",
+    "type": "multiple_choice",
+    "question_he": "כמה אשלגן (K+) בricoconcלי תוך תאי בmmol/L?",
+    "question_en": "What is the potassium (K+) concentration in intracellular fluid in mmol/L?",
+    "options_he": [
+      "100",
+      "125",
+      "155",
+      "180"
+    ],
+    "options_en": [
+      "100",
+      "125",
+      "155",
+      "180"
+    ],
+    "correct": 2,
+    "explanation_he": "ריכוז אשלגן בנוזל תוך תאי הוא 155 mmol/L, בניגוד לריכוזו בנוזל חוץ תאי שהוא רק 5 mmol/L.",
+    "explanation_en": "Potassium concentration in intracellular fluid is 155 mmol/L, in contrast to only 5 mmol/L in extracellular fluid."
+  },
+  {
+    "subject_id": "oxygen",
+    "subject_name_he": "טיפול חמצן",
+    "subject_name_en": "Oxygen Therapy",
+    "type": "multiple_choice",
+    "question_he": "נפח מיכל חמצן גדול (H) הוא?",
+    "question_en": "What is the volume of a large oxygen cylinder (H)?",
+    "options_he": [
+      "2.4 ליטר",
+      "10 ליטר",
+      "20 ליטר",
+      "50 ליטר"
+    ],
+    "options_en": [
+      "2.4 liters",
+      "10 liters",
+      "20 liters",
+      "50 liters"
+    ],
+    "correct": 2,
+    "explanation_he": "מיכל גדול H בנפח 20 ליטר, ומיכל קטן D בנפח 2.4 ליטר.",
+    "explanation_en": "The large H cylinder has a volume of 20 liters, and the small D cylinder has a volume of 2.4 liters."
+  },
+  {
+    "subject_id": "oxygen",
+    "subject_name_he": "טיפול חמצן",
+    "subject_name_en": "Oxygen Therapy",
+    "type": "true_false",
+    "question_he": "חמצן נחשב לתרופה בטיפול ראשוני בחולה ובפצוע.",
+    "question_en": "Oxygen is considered a medication in initial treatment of a patient and injured person.",
+    "correct": true,
+    "explanation_he": "חמצן הוא גז שנחשב כתרופה ואחד הטיפולים הראשוניים בחולה ובפצוע. הוא משתתף ברמה התאית לייצור אנרגיה ATP.",
+    "explanation_en": "Oxygen is a gas considered a medication and one of the initial treatments for a patient and injured person. It participates at the cellular level in ATP energy production."
+  },
+  {
+    "subject_id": "oxygen",
+    "subject_name_he": "טיפול חמצן",
+    "subject_name_en": "Oxygen Therapy",
+    "type": "multiple_choice",
+    "question_he": "מה הנוסחה להמרה מ-ATM ל-PSI?",
+    "question_en": "What is the conversion formula from ATM to PSI?",
+    "options_he": [
+      "PSI = ATM × 10",
+      "PSI = ATM × 14.7",
+      "PSI = ATM ÷ 15",
+      "PSI = ATM × 20"
+    ],
+    "options_en": [
+      "PSI = ATM × 10",
+      "PSI = ATM × 14.7",
+      "PSI = ATM ÷ 15",
+      "PSI = ATM × 20"
+    ],
+    "correct": 1,
+    "explanation_he": "ההמרה הנכונה היא: 1 ATM = 14.7 PSI. או להפוך: ATM = PSI ÷ 15.",
+    "explanation_en": "The correct conversion is: 1 ATM = 14.7 PSI. Or vice versa: ATM = PSI ÷ 15."
+  },
+  {
+    "subject_id": "oxygen",
+    "subject_name_he": "טיפול חמצן",
+    "subject_name_en": "Oxygen Therapy",
+    "type": "multiple_choice",
+    "question_he": "מה אחוז ההעשרה בחמצן באמצעות משקפי אף (קנולה) בזרימה של 3 ליטר לדקה?",
+    "question_en": "What is the oxygen enrichment percentage via nasal cannula at 3 liters per minute?",
+    "options_he": [
+      "24%",
+      "28%",
+      "32%",
+      "40%"
+    ],
+    "options_en": [
+      "24%",
+      "28%",
+      "32%",
+      "40%"
+    ],
+    "correct": 2,
+    "explanation_he": "בזרימה של 3 ליטר לדקה, משקפי אף מעשירים 32% חמצן. בזרימה של 1 ליטר = 24%, 2 ליטר = 28%, וכו'.",
+    "explanation_en": "At 3 liters per minute, nasal cannula provides 32% oxygen enrichment. At 1 liter = 24%, 2 liters = 28%, etc."
+  },
+  {
+    "subject_id": "oxygen",
+    "subject_name_he": "טיפול חמצן",
+    "subject_name_en": "Oxygen Therapy",
+    "type": "true_false",
+    "question_he": "אסור מגע חמצן עם שמן מחשש להתפוצצות.",
+    "question_en": "Oxygen contact with oil is prohibited due to explosion risk.",
+    "correct": true,
+    "explanation_he": "זה כלל בטיחות חשוב: אסור מגע חמצן עם אש מחשש להתלקחות ואסור מגע עם שמן מחשש להתפוצצות.",
+    "explanation_en": "This is an important safety rule: oxygen must not contact fire (ignition risk) or oil (explosion risk)."
+  },
+  {
+    "subject_id": "oxygen",
+    "subject_name_he": "טיפול חמצן",
+    "subject_name_en": "Oxygen Therapy",
+    "type": "multiple_choice",
+    "question_he": "מסיכה עם שקית העשרה ללא שסתום חד כיווני מעשירה כמה אחוז חמצן בזרימה של 10 ליטר לדקה?",
+    "question_en": "A mask with reservoir bag without one-way valve provides what percentage of oxygen at 10 liters per minute?",
+    "options_he": [
+      "50%",
+      "60%",
+      "80%",
+      "90%"
+    ],
+    "options_en": [
+      "50%",
+      "60%",
+      "80%",
+      "90%"
+    ],
+    "correct": 1,
+    "explanation_he": "מסיכה עם שקית מאגר ללא שסתום מעשירה 60% בזרימה של 10 ליטר לדקה. עם שסתום חד כיווני = 90%.",
+    "explanation_en": "A reservoir mask without one-way valve provides 60% at 10 L/min. With one-way valve = 90%."
+  },
+  {
+    "subject_id": "oxygen",
+    "subject_name_he": "טיפול חמצן",
+    "subject_name_en": "Oxygen Therapy",
+    "type": "multiple_choice",
+    "question_he": "מי מעוניין בשימוש במסכה ונטורית?",
+    "question_en": "Who is indicated for Venturi mask use?",
+    "options_he": [
+      "חולים בדם גבוה",
+      "חולי COPD",
+      "חולים עם אסטמה קלה",
+      "כל המטופלים"
+    ],
+    "options_en": [
+      "Patients with high blood pressure",
+      "COPD patients",
+      "Patients with mild asthma",
+      "All patients"
+    ],
+    "correct": 1,
+    "explanation_he": "מסכה ונטורית מיועדת לחולי COPD מכיוון שהיא מעשירה 24-40% חמצן בחזקה מדויקת.",
+    "explanation_en": "The Venturi mask is indicated for COPD patients because it provides precise oxygen enrichment of 24-40%."
+  },
+  {
+    "subject_id": "oxygen",
+    "subject_name_he": "טיפול חמצן",
+    "subject_name_en": "Oxygen Therapy",
+    "type": "true_false",
+    "question_he": "כאשר מטפל יחיד מגיע לאירוע עם AED וצריך לבצע החייאה, יש להתחיל בהחייאה אחרי הפעלת ה-AED.",
+    "question_en": "When a single provider arrives at an event with AED and needs to perform CPR, they should start CPR after activating the AED.",
+    "correct": true,
+    "explanation_he": "כאשר מטפל יחיד יש AED, יש להפעיל ולחבר את המכשיר עם ההגעה, ואחרי כן להתחיל בהחייאת עיסויים בלבד.",
+    "explanation_en": "When a single provider has an AED, activate and attach it upon arrival, then start compression-only CPR."
+  },
+  {
+    "subject_id": "oxygen",
+    "subject_name_he": "טיפול חמצן",
+    "subject_name_en": "Oxygen Therapy",
+    "type": "multiple_choice",
+    "question_he": "מה הזרימה המומלצת של חמצן לתינוק דרך קנולה לאף?",
+    "question_en": "What is the recommended oxygen flow for an infant via nasal cannula?",
+    "options_he": [
+      "0.5 ליטר",
+      "1 ליטר",
+      "2 ליטר",
+      "4 ליטר"
+    ],
+    "options_en": [
+      "0.5 liters",
+      "1 liter",
+      "2 liters",
+      "4 liters"
+    ],
+    "correct": 2,
+    "explanation_he": "לתינוק, הזרימה המומלצת דרך קנולה לאף היא 2 ליטר לדקה, מעשירה 30% חמצן.",
+    "explanation_en": "For an infant, the recommended nasal cannula flow is 2 liters per minute, providing 30% oxygen enrichment."
+  },
+  {
+    "subject_id": "acid_base",
+    "subject_name_he": "מאזן חומצה-בסיס",
+    "subject_name_en": "Acid-Base Balance",
+    "type": "multiple_choice",
+    "question_he": "מה טווח ה-pH התקין בדם?",
+    "question_en": "What is the normal pH range in blood?",
+    "options_he": [
+      "7.20-7.30",
+      "7.35-7.45",
+      "7.50-7.60",
+      "7.65-7.75"
+    ],
+    "options_en": [
+      "7.20-7.30",
+      "7.35-7.45",
+      "7.50-7.60",
+      "7.65-7.75"
+    ],
+    "correct": 1,
+    "explanation_he": "טווח ה-pH התקין בדם הוא 7.35-7.45. כל סטייה מתחת או מעל לטווח זה מוציאה את הגוף מאיזון.",
+    "explanation_en": "The normal blood pH range is 7.35-7.45. Any deviation above or below this range disrupts body homeostasis."
+  },
+  {
+    "subject_id": "acid_base",
+    "subject_name_he": "מאזן חומצה-בסיס",
+    "subject_name_en": "Acid-Base Balance",
+    "type": "true_false",
+    "question_he": "חומצה היא חומר המשחרר יוני מימן חיוביים (H+) בתמיסה מימית.",
+    "question_en": "An acid is a substance that releases positive hydrogen ions (H+) in aqueous solution.",
+    "correct": true,
+    "explanation_he": "זו הגדרה נכונה של חומצה. בסיס, לעומת זאת, משחרר יוני הידרוקסיל (OH-) או סופח יוני מימן.",
+    "explanation_en": "This is the correct definition of an acid. A base, in contrast, releases hydroxide ions (OH-) or absorbs hydrogen ions."
+  },
+  {
+    "subject_id": "acid_base",
+    "subject_name_he": "מאזן חומצה-בסיס",
+    "subject_name_en": "Acid-Base Balance",
+    "type": "multiple_choice",
+    "question_he": "חומצה קרבונית נוצרת כתוצאה מתחברות של איזה שני חומרים?",
+    "question_en": "Carbonic acid is formed as a result of combining which two substances?",
+    "options_he": [
+      "חמצן ומימן",
+      "פחמן דו חמצני ומימן",
+      "ביקרבונט ומימן",
+      "דו חמצני ומימן קרבוני"
+    ],
+    "options_en": [
+      "Oxygen and hydrogen",
+      "Carbon dioxide and water",
+      "Bicarbonate and hydrogen",
+      "Dioxide and carbonic hydrogen"
+    ],
+    "correct": 1,
+    "explanation_he": "חומצה קרבונית (H2CO3) נוצרת כאשר פחמן דו חמצני (CO2) מתחבר עם מים (H2O).",
+    "explanation_en": "Carbonic acid (H2CO3) is formed when carbon dioxide (CO2) combines with water (H2O)."
+  },
+  {
+    "subject_id": "acid_base",
+    "subject_name_he": "מאזן חומצה-בסיס",
+    "subject_name_en": "Acid-Base Balance",
+    "type": "multiple_choice",
+    "question_he": "מהו קומפנסציה במאזן חומצה-בסיס?",
+    "question_en": "What is compensation in acid-base balance?",
+    "options_he": [
+      "טיפול תרופתי",
+      "הניסיון של הגוף להחזיר את המאזן להומיאוסטאזיס",
+      "הוצאת חומרים מהגוף",
+      "הכנסת חומרים לגוף"
+    ],
+    "options_en": [
+      "Medication therapy",
+      "Body's attempt to restore balance to homeostasis",
+      "Removing substances from body",
+      "Adding substances to body"
+    ],
+    "correct": 1,
+    "explanation_he": "קומפנסציה היא ניסיון טבעי של הגוף להחזיר את מאזן החומצה-בסיס להומיאוסטאזיס.",
+    "explanation_en": "Compensation is the body's natural attempt to restore acid-base balance to homeostasis."
+  },
+  {
+    "subject_id": "acid_base",
+    "subject_name_he": "מאזן חומצה-בסיס",
+    "subject_name_en": "Acid-Base Balance",
+    "type": "true_false",
+    "question_he": "קומפנסציה ריאתית פועלת תוך שניות ספורות על ידי שינוי קצב ונפח הנשימה.",
+    "question_en": "Respiratory compensation acts within seconds by changing respiratory rate and volume.",
+    "correct": true,
+    "explanation_he": "קומפנסציה ריאתית היא מהירה ביותר - תוך שניות ספורות. ירידה ב-pH מעוררת את מרכז הנשימה וגורמת לעלייה בנפח האוורור.",
+    "explanation_en": "Respiratory compensation is the fastest - within seconds. Decreased pH stimulates the respiratory center, increasing ventilation volume."
+  },
+  {
+    "subject_id": "acid_base",
+    "subject_name_he": "מאזן חומצה-בסיס",
+    "subject_name_en": "Acid-Base Balance",
+    "type": "multiple_choice",
+    "question_he": "מה המהירות של קומפנסציה כלייתית?",
+    "question_en": "What is the speed of renal compensation?",
+    "options_he": [
+      "תוך שניות",
+      "תוך דקות",
+      "תוך שעות עד ימים",
+      "תוך שבועות"
+    ],
+    "options_en": [
+      "Within seconds",
+      "Within minutes",
+      "Within hours to days",
+      "Within weeks"
+    ],
+    "correct": 2,
+    "explanation_he": "קומפנסציה כלייתית היא איטית ביותר - תוך שעות עד ימים. כליות יכולות לספוג ביקרבונט או להפריש יוני מימן.",
+    "explanation_en": "Renal compensation is the slowest - taking hours to days. Kidneys can absorb bicarbonate or secrete hydrogen ions."
+  },
+  {
+    "subject_id": "acid_base",
+    "subject_name_he": "מאזן חומצה-בסיס",
+    "subject_name_en": "Acid-Base Balance",
+    "type": "multiple_choice",
+    "question_he": "מהי חמצת מטבולית?",
+    "question_en": "What is metabolic acidosis?",
+    "options_he": [
+      "עודף ביקרבונט בדם",
+      "ריכוז נמוך של יוני מימן",
+      "עודף יוני מימן בדם ממקור מטבולי",
+      "ירידה בקצב הנשימה"
+    ],
+    "options_en": [
+      "Excess bicarbonate in blood",
+      "Low hydrogen ion concentration",
+      "Excess hydrogen ions in blood from metabolic source",
+      "Decreased respiratory rate"
+    ],
+    "correct": 2,
+    "explanation_he": "חמצת מטבולית היא הפרעה מטבולית שגורמת לייצור מוגבר של H+ ו-CO2, וכתוצאה עלייה בחומצה קרבונית בדם.",
+    "explanation_en": "Metabolic acidosis is a metabolic disorder causing increased H+ and CO2 production, resulting in elevated carbonic acid in blood."
+  },
+  {
+    "subject_id": "acid_base",
+    "subject_name_he": "מאזן חומצה-בסיס",
+    "subject_name_en": "Acid-Base Balance",
+    "type": "true_false",
+    "question_he": "חמצת רספירטורית נגרמת על ידי הנשמה יתרה (היפרוונטילציה).",
+    "question_en": "Respiratory acidosis is caused by hyperventilation (excessive breathing).",
+    "correct": false,
+    "explanation_he": "זה שגוי. חמצת רספירטורית נגרמת על ידי ייצור מוגבר של CO2 או אי יכולת להוציא CO2 (כגון חסימת נתיב אוויר). היפרוונטילציה גורמת לבססת רספירטורית.",
+    "explanation_en": "This is incorrect. Respiratory acidosis is caused by excess CO2 production or inability to expel CO2 (such as airway obstruction). Hyperventilation causes respiratory alkalosis."
+  },
+  {
+    "subject_id": "acid_base",
+    "subject_name_he": "מאזן חומצה-בסיס",
+    "subject_name_en": "Acid-Base Balance",
+    "type": "multiple_choice",
+    "question_he": "מה ערך ה-PCO2 התקין בדם?",
+    "question_en": "What is the normal PCO2 value in blood?",
+    "options_he": [
+      "25-30 mmHg",
+      "35-45 mmHg",
+      "50-60 mmHg",
+      "65-75 mmHg"
+    ],
+    "options_en": [
+      "25-30 mmHg",
+      "35-45 mmHg",
+      "50-60 mmHg",
+      "65-75 mmHg"
+    ],
+    "correct": 1,
+    "explanation_he": "ערך ה-PCO2 התקין בדם הוא 35-45 mmHg. זה משקף את הלחץ החלקי של פחמן דו חמצני המשקף את הוונטילציה הריאתית.",
+    "explanation_en": "Normal PCO2 value is 35-45 mmHg. This reflects the partial pressure of carbon dioxide and indicates respiratory ventilation."
+  },
+  {
+    "subject_id": "acid_base",
+    "subject_name_he": "מאזן חומצה-בסיס",
+    "subject_name_en": "Acid-Base Balance",
+    "type": "multiple_choice",
+    "question_he": "מה ערך ה-HCO3- (ביקרבונט) התקין בדם?",
+    "question_en": "What is the normal HCO3- (bicarbonate) value in blood?",
+    "options_he": [
+      "15-18 mmol/L",
+      "22-26 mmol/L",
+      "30-35 mmol/L",
+      "40-45 mmol/L"
+    ],
+    "options_en": [
+      "15-18 mmol/L",
+      "22-26 mmol/L",
+      "30-35 mmol/L",
+      "40-45 mmol/L"
+    ],
+    "correct": 1,
+    "explanation_he": "ערך ה-HCO3- התקין בדם הוא 22-26 mmol/L. זה משקף את רמת הביקרבונט המטבולית בדם.",
+    "explanation_en": "Normal HCO3- value is 22-26 mmol/L. This reflects the metabolic bicarbonate level in blood."
+  },
+  {
+    "subject_id": "aed",
+    "subject_name_he": "דפיברילטור חיצוני אוטומטי",
+    "subject_name_en": "Automated External Defibrillator (AED)",
+    "type": "true_false",
+    "question_he": "קצב הלב הראשוני הנפוץ ביותר בדום לב פתאומי הוא פרפור חדרים (VF).",
+    "question_en": "Ventricular fibrillation (VF) is the most common initial heart rhythm in sudden cardiac arrest.",
+    "correct": true,
+    "explanation_he": "פרפור חדרים (VF) הוא קצב הלב הראשוני הנפוץ ביותר בדום לב פתאומי, וטיפולו הוא מתן שוק (דפיברילציה).",
+    "explanation_en": "Ventricular fibrillation (VF) is the most common initial rhythm in sudden cardiac arrest, and the treatment is defibrillation (shock)."
+  },
+  {
+    "subject_id": "aed",
+    "subject_name_he": "דפיברילטור חיצוני אוטומטי",
+    "subject_name_en": "Automated External Defibrillator (AED)",
+    "type": "true_false",
+    "question_he": "ככל שיינתן השוק של ה-AED מוקדם יותר, גדולים סיכויי החולה לשרוד.",
+    "question_en": "The earlier the AED shock is delivered, the greater the chance of patient survival.",
+    "correct": true,
+    "explanation_he": "זה עקרון חשוב בהחייאה: כל דקה שעוברת ללא דפיברילציה מפחיתה את סיכויי השרדות בכ-7-10%.",
+    "explanation_en": "This is a critical principle in resuscitation: each minute without defibrillation reduces survival chances by approximately 7-10%."
+  },
+  {
+    "subject_id": "aed",
+    "subject_name_he": "דפיברילטור חיצוני אוטומטי",
+    "subject_name_en": "Automated External Defibrillator (AED)",
+    "type": "multiple_choice",
+    "question_he": "מה צריך לעשות לאחר הדבקת מדבקות ה-AED לחולה?",
+    "question_en": "What should be done after applying AED pads to the patient?",
+    "options_he": [
+      "להתחיל עיסויים",
+      "להמתין לניתוח",
+      "להימנע מלגעת בחולה בזמן האנליזה",
+      "לחזור להחייאה תוך 2 דקות"
+    ],
+    "options_en": [
+      "Start compressions",
+      "Wait for analysis",
+      "Avoid touching patient during analysis",
+      "Resume CPR in 2 minutes"
+    ],
+    "correct": 2,
+    "explanation_he": "חשוב להימנע מלגעת בחולה בזמן שה-AED מבצע אנליזה של קצב הלב, כדי למנוע הפרעות.",
+    "explanation_en": "It is important to avoid touching the patient while the AED analyzes the heart rhythm to prevent interference."
+  },
+  {
+    "subject_id": "aed",
+    "subject_name_he": "דפיברילטור חיצוני אוטומטי",
+    "subject_name_en": "Automated External Defibrillator (AED)",
+    "type": "multiple_choice",
+    "question_he": "מה צריך לעשות כאשר ה-AED מומיע שוק זמין?",
+    "question_en": "What should be done when the AED advises a shock is available?",
+    "options_he": [
+      "לעצור עיסויים ולהימנע מלגעת בחולה",
+      "ללחוץ על הכפתור המהבהב",
+      "להמתין 30 שניות",
+      "להמשיך בעיסויים"
+    ],
+    "options_en": [
+      "Stop compressions and avoid touching patient",
+      "Press the flashing button",
+      "Wait 30 seconds",
+      "Continue compressions"
+    ],
+    "correct": 1,
+    "explanation_he": "כאשר ה-AED מומיע שוק, צריך ללחוץ על הכפתור המהבהב לאחר הימנעות מלגעת בחולה, ואז להמשיך בהחייאה.",
+    "explanation_en": "When the AED advises a shock, press the flashing button after ensuring no one is touching the patient, then continue resuscitation."
+  },
+  {
+    "subject_id": "aed",
+    "subject_name_he": "דפיברילטור חיצוני אוטומטי",
+    "subject_name_en": "Automated External Defibrillator (AED)",
+    "type": "true_false",
+    "question_he": "לאחר מתן שוק ממד ה-AED, צריך להמשיך בהחייאה במיידי.",
+    "question_en": "After AED shock delivery, CPR should be resumed immediately.",
+    "correct": true,
+    "explanation_he": "לאחר מתן שוק, יש להמשיך בהחייאה (עיסויים והנשמה) וללקוח קשב לה-AED לאחר 2 דקות.",
+    "explanation_en": "After shock delivery, continue CPR (compressions and breaths) and reassess with the AED after 2 minutes."
+  },
+  {
+    "subject_id": "aed",
+    "subject_name_he": "דפיברילטור חיצוני אוטומטי",
+    "subject_name_en": "Automated External Defibrillator (AED)",
+    "type": "true_false",
+    "question_he": "יש להוציא מדבקות ה-AED מחולה עם טלית רטובה.",
+    "question_en": "AED pads should be removed from a patient with a wet garment.",
+    "correct": true,
+    "explanation_he": "יש להוציא טלית רטובה או מים מחזה החולה לפני הדבקת מדבקות ה-AED כדי להבטיח מגע טוב ולמנוע סכנות בטיחות.",
+    "explanation_en": "Wet garments should be removed from the patient's chest before applying AED pads to ensure good contact and safety."
+  },
+  {
+    "subject_id": "aed",
+    "subject_name_he": "דפיברילטור חיצוני אוטומטי",
+    "subject_name_en": "Automated External Defibrillator (AED)",
+    "type": "multiple_choice",
+    "question_he": "איך צריך להתנהג אם ה-AED מומיע שלא צריך שוק?",
+    "question_en": "What should be done if the AED advises no shock?",
+    "options_he": [
+      "לעצור החייאה",
+      "להמשיך בהחייאה עם עיסויים",
+      "להמתין 5 דקות",
+      "להחליף מדבקות"
+    ],
+    "options_en": [
+      "Stop resuscitation",
+      "Continue CPR with compressions",
+      "Wait 5 minutes",
+      "Change pads"
+    ],
+    "correct": 1,
+    "explanation_he": "אם ה-AED מומיע שלא צריך שוק (No Shock Advised), יש להמשיך בהחייאה עם עיסויים בחזה ולבדוק שוב לאחר 2 דקות.",
+    "explanation_en": "If the AED advises 'No Shock Advised', continue CPR with chest compressions and reassess after 2 minutes."
+  },
+  {
+    "subject_id": "legal",
+    "subject_name_he": "היבטים משפטיים בעבודת הפרמדיק",
+    "subject_name_en": "Legal Aspects in Paramedic Work",
+    "type": "multiple_choice",
+    "question_he": "כמה רכיבים יש לתביעת רשלנות רפואית?",
+    "question_en": "How many components are in a medical malpractice claim?",
+    "options_he": [
+      "שניים",
+      "שלושה",
+      "ארבעה",
+      "חמישה"
+    ],
+    "options_en": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "correct": 2,
+    "explanation_he": "רכיבי תביעת רשלנות רפואית הם: 1) חובת זהירות 2) התרשלות 3) נזק 4) קשר סיבתי.",
+    "explanation_en": "Components of a medical malpractice claim are: 1) Duty of care 2) Negligence 3) Damage 4) Causal connection."
+  },
+  {
+    "subject_id": "legal",
+    "subject_name_he": "היבטים משפטיים בעבודת הפרמדיק",
+    "subject_name_en": "Legal Aspects in Paramedic Work",
+    "type": "true_false",
+    "question_he": "רשלנות היא סטייה מסטנדרט הזהירות של ה'אדם הסביר' או ה'מטפל הסביר'.",
+    "question_en": "Negligence is deviation from the standard of care of the 'reasonable person' or 'reasonable caregiver'.",
+    "correct": true,
+    "explanation_he": "זו הגדרה נכונה של רשלנות. זה מודדות לפי מה שיעשה אדם או מטפל סביר בנסיבות דומות.",
+    "explanation_en": "This is the correct definition of negligence. It is measured by what a reasonable person or caregiver would do in similar circumstances."
+  },
+  {
+    "subject_id": "legal",
+    "subject_name_he": "היבטים משפטיים בעבודת הפרמדיק",
+    "subject_name_en": "Legal Aspects in Paramedic Work",
+    "type": "multiple_choice",
+    "question_he": "מה היא חובת זהירות משפטית?",
+    "question_en": "What is a legal duty of care?",
+    "options_he": [
+      "אפשרות להעניק טיפול",
+      "חובה משפטית לנהוג בסביר כדי שלא לגרום נזק",
+      "זכות המטופל",
+      "אישור מד'א"
+    ],
+    "options_en": [
+      "Option to provide care",
+      "Legal obligation to act reasonably to prevent harm",
+      "Patient's right",
+      "MDA approval"
+    ],
+    "correct": 1,
+    "explanation_he": "חובת זהירות היא חובה משפטית המוטלת על אדם או גוף לנהוג באופן סביר כדי שלא לגרום נזק לאחר.",
+    "explanation_en": "A duty of care is a legal obligation placed on a person or entity to act reasonably to prevent causing harm to another."
+  },
+  {
+    "subject_id": "legal",
+    "subject_name_he": "היבטים משפטיים בעבודת הפרמדיק",
+    "subject_name_en": "Legal Aspects in Paramedic Work",
+    "type": "true_false",
+    "question_he": "כשהנתבע גורם לנזק ראייתי (כגון אובדן רשומה רפואית), סנקציה אפשרית היא היפוך נטל הראייה.",
+    "question_en": "When the defendant causes evidentiary harm (such as loss of medical record), a possible sanction is reversal of burden of proof.",
+    "correct": true,
+    "explanation_he": "זה נכון. כאשר יש נזק ראייתי בגלל אובדן רשומה רפואית, העובדות עלולות להיקבע לפי גרסת התובע.",
+    "explanation_en": "This is correct. When there is evidentiary harm due to loss of medical records, facts may be determined according to the plaintiff's version."
+  },
+  {
+    "subject_id": "legal",
+    "subject_name_he": "היבטים משפטיים בעבודת הפרמדיק",
+    "subject_name_en": "Legal Aspects in Paramedic Work",
+    "type": "multiple_choice",
+    "question_he": "בר לפי חוק זכויות החולה, איזה מידע צריך להימסר למטופל לקבלת הסכמה מדעת?",
+    "question_en": "According to the Patient Rights Law, what information must be provided to a patient for informed consent?",
+    "options_he": [
+      "רק אבחון",
+      "דיאגנוזה, תועלת, סיכונים וטיפולים חלופיים",
+      "רק הטיפול המוצע",
+      "לא נדרש מידע"
+    ],
+    "options_en": [
+      "Only diagnosis",
+      "Diagnosis, benefits, risks and alternative treatments",
+      "Only proposed treatment",
+      "No information required"
+    ],
+    "correct": 1,
+    "explanation_he": "מידע רפואי = דיאגנוזה, פרוגנוזה, תועלת וסיכויים בטיפול המוצע, סיכונים, וטיפולים חלופיים.",
+    "explanation_en": "Medical information = diagnosis, prognosis, benefits and chances of proposed treatment, risks, and alternative treatments."
+  },
+  {
+    "subject_id": "legal",
+    "subject_name_he": "היבטים משפטיים בעבודת הפרמדיק",
+    "subject_name_en": "Legal Aspects in Paramedic Work",
+    "type": "multiple_choice",
+    "question_he": "מהו 'נזק ראייתי' בהקשר המשפטי?",
+    "question_en": "What is 'evidentiary harm' in legal context?",
+    "options_he": [
+      "פגיעה בעדים",
+      "אי יכולת המטופל להוכיח את טענותיו",
+      "הפרת חוק",
+      "טעות רופא"
+    ],
+    "options_en": [
+      "Injury to witnesses",
+      "Patient's inability to prove their claims",
+      "Law violation",
+      "Doctor's error"
+    ],
+    "correct": 1,
+    "explanation_he": "נזק ראייתי פירושו אי יכולת המטופל להוכיח את טענותיו בגלל אובדן או אי שמירה של רשומה רפואית.",
+    "explanation_en": "Evidentiary harm means the patient's inability to prove their claims due to loss or poor maintenance of medical records."
+  },
+  {
+    "subject_id": "legal",
+    "subject_name_he": "היבטים משפטיים בעבודת הפרמדיק",
+    "subject_name_en": "Legal Aspects in Paramedic Work",
+    "type": "true_false",
+    "question_he": "אם מטופל מתנגד טיפול ברמה חירום רפואי, יש לחזור ללא טיפול.",
+    "question_en": "If a patient refuses treatment in a medical emergency, care should be withheld.",
+    "correct": false,
+    "explanation_he": "זה שגוי. במצב חירום רפואי, המטפל רשאי לתת טיפול דחוף גם ללא הסכמה מדעת אם לא ניתן לקבל הסכמה בגלל מצב החירום.",
+    "explanation_en": "This is incorrect. In a medical emergency, a caregiver may provide emergency care without informed consent if consent cannot be obtained due to the emergency."
+  },
+  {
+    "subject_id": "legal",
+    "subject_name_he": "היבטים משפטיים בעבודת הפרמדיק",
+    "subject_name_en": "Legal Aspects in Paramedic Work",
+    "type": "multiple_choice",
+    "question_he": "מה המקור החוקי המחייב טיפול רפואי לחולה?",
+    "question_en": "What is the legal source requiring medical care for a patient?",
+    "options_he": [
+      "חוק זכויות החולה בלבד",
+      "חוק 'לא תעמוד על דם רעך'",
+      "כל טיפול אופציונלי",
+      "אין חובה משפטית"
+    ],
+    "options_en": [
+      "Patient Rights Law only",
+      "Law 'You shall not stand idly by'",
+      "All treatment is optional",
+      "No legal obligation"
+    ],
+    "correct": 1,
+    "explanation_he": "חוק 'לא תעמוד על דם רעך' מחייב כל אדם להושיט עזרה לאדם בסכנה מיידית וחמורה, כפי יכולתו וסמכותו.",
+    "explanation_en": "The 'You shall not stand idly by' law requires every person to provide assistance to someone in immediate and serious danger, within their ability and authority."
+  },
+  {
+    "subject_id": "legal",
+    "subject_name_he": "היבטים משפטיים בעבודת הפרמדיק",
+    "subject_name_en": "Legal Aspects in Paramedic Work",
+    "type": "true_false",
+    "question_he": "כלל ברזל בתיעוד: 'לא רשמת – לא עשית'.",
+    "question_en": "Golden rule in documentation: 'If not documented, it was not done.'",
+    "correct": true,
+    "explanation_he": "זו עקרון בסיסי: רשומה רפואית מפורטת חיונית להגנה משפטית. ללא תיעוד, הפעולה תחשב כלא בוצעה.",
+    "explanation_en": "This is a basic principle: detailed medical records are essential for legal protection. Without documentation, an action is considered not done."
+  },
+  {
+    "subject_id": "lung_volumes",
+    "subject_name_he": "נפחי ריאה",
+    "subject_name_en": "Lung Volumes",
+    "type": "multiple_choice",
+    "question_he": "מה קצב הנשימה התקין בדקה (RR) למבוגר?",
+    "question_en": "What is the normal respiratory rate (RR) per minute for an adult?",
+    "options_he": [
+      "8-10",
+      "12-20",
+      "25-30",
+      "35-40"
+    ],
+    "options_en": [
+      "8-10",
+      "12-20",
+      "25-30",
+      "35-40"
+    ],
+    "correct": 1,
+    "explanation_he": "קצב נשימה תקין במבוגר הוא 12-20 נשימות לדקה.",
+    "explanation_en": "Normal respiratory rate in an adult is 12-20 breaths per minute."
+  },
+  {
+    "subject_id": "lung_volumes",
+    "subject_name_he": "נפחי ריאה",
+    "subject_name_en": "Lung Volumes",
+    "type": "multiple_choice",
+    "question_he": "מה נפח הנשימה הרגילה (TV) בתקנון?",
+    "question_en": "What is the normal tidal volume (TV)?",
+    "options_he": [
+      "200 מ'ל",
+      "500 מ'ל",
+      "1000 מ'ל",
+      "2000 מ'ל"
+    ],
+    "options_en": [
+      "200 mL",
+      "500 mL",
+      "1000 mL",
+      "2000 mL"
+    ],
+    "correct": 1,
+    "explanation_he": "נפח נשימה רגיל (TV) הוא כ-500 מ'ל או 6-8 מ'ל לכל ק'ג משקל גוף.",
+    "explanation_en": "Normal tidal volume (TV) is approximately 500 mL or 6-8 mL per kilogram of body weight."
+  },
+  {
+    "subject_id": "lung_volumes",
+    "subject_name_he": "נפחי ריאה",
+    "subject_name_en": "Lung Volumes",
+    "type": "true_false",
+    "question_he": "נפח שאריתי (RV) הוא אוויר שניתן להוציא מהריאות לאחר נשיפה מקסימלית.",
+    "question_en": "Residual volume (RV) is air that can be expelled from lungs after maximum exhalation.",
+    "correct": false,
+    "explanation_he": "זה שגוי. נפח שאריתי (RV) הוא אוויר שנשאר בריאות גם לאחר נשיפה מקסימלית, כ-1200 מ'ל.",
+    "explanation_en": "This is incorrect. Residual volume (RV) is air that remains in the lungs even after maximum exhalation, approximately 1200 mL."
+  },
+  {
+    "subject_id": "lung_volumes",
+    "subject_name_he": "נפחי ריאה",
+    "subject_name_en": "Lung Volumes",
+    "type": "multiple_choice",
+    "question_he": "מהי נוסחת קיבולת חיונית (VC)?",
+    "question_en": "What is the formula for vital capacity (VC)?",
+    "options_he": [
+      "TV + IRV",
+      "TV + ERV + RV",
+      "IRV + TV + ERV",
+      "IRV + TV + ERV + RV"
+    ],
+    "options_en": [
+      "TV + IRV",
+      "TV + ERV + RV",
+      "IRV + TV + ERV",
+      "IRV + TV + ERV + RV"
+    ],
+    "correct": 2,
+    "explanation_he": "VC = IRV + TV + ERV (כ-4600 מ'ל). זה כמות האוויר המקסימלית שניתן להוציא לאחר שאיפה מלאה.",
+    "explanation_en": "VC = IRV + TV + ERV (approximately 4600 mL). This is the maximum air that can be expelled after full inspiration."
+  },
+  {
+    "subject_id": "lung_volumes",
+    "subject_name_he": "נפחי ריאה",
+    "subject_name_en": "Lung Volumes",
+    "type": "multiple_choice",
+    "question_he": "מהי נוסחת קיבולת ריאתית כוללת (TLC)?",
+    "question_en": "What is the formula for total lung capacity (TLC)?",
+    "options_he": [
+      "TV + IRV + ERV",
+      "IRV + TV + ERV + RV",
+      "TV + ERV + RV",
+      "IRV + TV + RV"
+    ],
+    "options_en": [
+      "TV + IRV + ERV",
+      "IRV + TV + ERV + RV",
+      "TV + ERV + RV",
+      "IRV + TV + RV"
+    ],
+    "correct": 1,
+    "explanation_he": "TLC = IRV + TV + ERV + RV (כ-5800-6000 מ'ל). זה כל האוויר שהריאות יכולות להכיל לאחר שאיפה מקסימלית.",
+    "explanation_en": "TLC = IRV + TV + ERV + RV (approximately 5800-6000 mL). This is all the air lungs can hold after maximum inspiration."
+  },
+  {
+    "subject_id": "lung_volumes",
+    "subject_name_he": "נפחי ריאה",
+    "subject_name_en": "Lung Volumes",
+    "type": "true_false",
+    "question_he": "אוורור לדקה (VE) מחושב כ-RR כפול TV.",
+    "question_en": "Minute ventilation (VE) is calculated as RR multiplied by TV.",
+    "correct": true,
+    "explanation_he": "זה נכון. VE = RR × TV, וערך תקין הוא כ-6-8 ליטר לדקה.",
+    "explanation_en": "This is correct. VE = RR × TV, with a normal value of approximately 6-8 liters per minute."
+  },
+  {
+    "subject_id": "lung_volumes",
+    "subject_name_he": "נפחי ריאה",
+    "subject_name_en": "Lung Volumes",
+    "type": "multiple_choice",
+    "question_he": "מה ערך קיבולת שיורית תפקודית (FRC) בתקנון?",
+    "question_en": "What is the normal functional residual capacity (FRC)?",
+    "options_he": [
+      "1200 מ'ל",
+      "2300 מ'ל",
+      "3500 מ'ל",
+      "4600 מ'ל"
+    ],
+    "options_en": [
+      "1200 mL",
+      "2300 mL",
+      "3500 mL",
+      "4600 mL"
+    ],
+    "correct": 1,
+    "explanation_he": "FRC = ERV + RV, כ-2300 מ'ל. זה כמות האוויר שנשארת בריאות לאחר נשיפה רגילה.",
+    "explanation_en": "FRC = ERV + RV, approximately 2300 mL. This is the amount of air remaining in lungs after normal exhalation."
+  },
+  {
+    "subject_id": "lung_volumes",
+    "subject_name_he": "נפחי ריאה",
+    "subject_name_en": "Lung Volumes",
+    "type": "true_false",
+    "question_he": "אוויר מת (Dead Space) משתתף בחילוף הגזים בריאות.",
+    "question_en": "Dead space air participates in gas exchange in the lungs.",
+    "correct": false,
+    "explanation_he": "זה שגוי. אוויר מת הוא אוויר שנכנס למערכת הנשימה אך אינו משתתף בחילוף גזים, כ-150 מ'ל.",
+    "explanation_en": "This is incorrect. Dead space is air that enters the respiratory system but does not participate in gas exchange, approximately 150 mL."
+  },
+  {
+    "subject_id": "lung_volumes",
+    "subject_name_he": "נפחי ריאה",
+    "subject_name_en": "Lung Volumes",
+    "type": "multiple_choice",
+    "question_he": "אילו מחלות גורמות לעלייה ב-RV ו-FRC?",
+    "question_en": "Which conditions cause increased RV and FRC?",
+    "options_he": [
+      "דיכוי הנשימה",
+      "אסטמה / COPD",
+      "דום נשימה",
+      "נפוخ ריאתי"
+    ],
+    "options_en": [
+      "Respiratory depression",
+      "Asthma / COPD",
+      "Apnea",
+      "Pneumothorax"
+    ],
+    "correct": 1,
+    "explanation_he": "אסטמה ו-COPD גורמות לעלייה ב-RV ו-FRC בגלל תקיעת אוויר בריאות.",
+    "explanation_en": "Asthma and COPD cause increased RV and FRC due to air trapping in the lungs."
+  },
+  {
+    "subject_id": "cpr_intro",
+    "subject_name_he": "מבוא להחייאה",
+    "subject_name_en": "CPR Introduction",
+    "type": "true_false",
+    "question_he": "המוח הוא איבר רגיש מאוד לרמות חמצן ויאבד הכרה תוך 4-6 דקות ללא חמצן.",
+    "question_en": "The brain is very sensitive to oxygen levels and loses consciousness within 4-6 minutes without oxygen.",
+    "correct": true,
+    "explanation_he": "זה נכון. אם חמצן לא יגיע למוח, האדם ייאבד הכרה תוך 4-6 דקות, וניתן לחול נזק תמידי למערכת העצבים.",
+    "explanation_en": "This is correct. If oxygen does not reach the brain, a person loses consciousness within 4-6 minutes, and permanent brain damage can occur."
+  },
+  {
+    "subject_id": "cpr_intro",
+    "subject_name_he": "מבוא להחייאה",
+    "subject_name_en": "CPR Introduction",
+    "type": "multiple_choice",
+    "question_he": "איזה משולש מהווה את יסוד תמיכת החיים?",
+    "question_en": "Which triangle forms the basis of life support?",
+    "options_he": [
+      "עצבים, שרירים, עצמות",
+      "עצבים, נשימה, לב וכלי דם",
+      "חמצן, אוויר, מים",
+      "חום, אור, חשמל"
+    ],
+    "options_en": [
+      "Nerves, muscles, bones",
+      "Nerves, breathing, heart and blood vessels",
+      "Oxygen, air, water",
+      "Heat, light, electricity"
+    ],
+    "correct": 1,
+    "explanation_he": "משולש החיים מורכב מ-3 מערכות: מערכת העצבים, מערכת הנשימה, ומערכת הלב וכלי הדם.",
+    "explanation_en": "The life triangle consists of 3 systems: the nervous system, the respiratory system, and the cardiovascular system."
+  },
+  {
+    "subject_id": "cpr_intro",
+    "subject_name_he": "מבוא להחייאה",
+    "subject_name_en": "CPR Introduction",
+    "type": "true_false",
+    "question_he": "בעיה באחת ממערכות משולש החיים גורמת לקריסה של שאר המערכות.",
+    "question_en": "A problem in one system of the life triangle causes collapse of the other systems.",
+    "correct": true,
+    "explanation_he": "זה נכון. אם אחת ממערכות משולש החיים (עצבים, נשימה, לב וכלי דם) מתקלקלת, זה מוביל בתור לקריסה של האחרות.",
+    "explanation_en": "This is correct. If one system of the life triangle fails, it leads to the collapse of the others in sequence."
+  },
+  {
+    "subject_id": "cpr_intro",
+    "subject_name_he": "מבוא להחייאה",
+    "subject_name_en": "CPR Introduction",
+    "type": "multiple_choice",
+    "question_he": "מי איברי מערכת הנשימה העליונה?",
+    "question_en": "What are the organs of the upper respiratory system?",
+    "options_he": [
+      "ריאות, סימפונות",
+      "אף, פה, לוע, קנה נשימה",
+      "כבד, לבלב",
+      "לב, עורקים"
+    ],
+    "options_en": [
+      "Lungs, bronchi",
+      "Nose, mouth, pharynx, trachea",
+      "Liver, pancreas",
+      "Heart, arteries"
+    ],
+    "correct": 1,
+    "explanation_he": "דרכי הנשימה העליונה כוללות: אף, פה, לוע, וקנה נשימה. דרכי תחתונות: ריאות, סימפונות, ונאדיות.",
+    "explanation_en": "Upper respiratory tract includes: nose, mouth, pharynx, and trachea. Lower respiratory tract: lungs, bronchi, and alveoli."
+  },
+  {
+    "subject_id": "cpr_intro",
+    "subject_name_he": "מבוא להחייאה",
+    "subject_name_en": "CPR Introduction",
+    "type": "true_false",
+    "question_he": "סימן לאדם שאינו נושם הוא שחזה אינו עולה.",
+    "question_en": "A sign that a person is not breathing is that the chest is not rising.",
+    "correct": true,
+    "explanation_he": "זה נכון. סימנים לאדם שאינו נושם כוללים: חזה לא עולה, כחלון בשפתיים ובפנים, והפרשות מן הפה.",
+    "explanation_en": "This is correct. Signs of non-breathing include: chest not rising, cyanosis on lips and face, and no secretions from mouth."
+  },
+  {
+    "subject_id": "cpr_intro",
+    "subject_name_he": "מבוא להחייאה",
+    "subject_name_en": "CPR Introduction",
+    "type": "multiple_choice",
+    "question_he": "בכל פעימה של הלב, מה נוצר המזרים דם אל המוח?",
+    "question_en": "With each heartbeat, what is created that pushes blood to the brain?",
+    "options_he": [
+      "חום",
+      "עצבים",
+      "לחץ דם",
+      "גזים"
+    ],
+    "options_en": [
+      "Heat",
+      "Nerves",
+      "Blood pressure",
+      "Gases"
+    ],
+    "correct": 2,
+    "explanation_he": "בכל פעימה של הלב, נוצר לחץ דם אשר מזרים את הדם אל המוח כדי לחמצן אותו.",
+    "explanation_en": "With each heartbeat, blood pressure is generated that pushes blood to the brain to oxygenate it."
+  },
+  {
+    "subject_id": "cpr_intro",
+    "subject_name_he": "מבוא להחייאה",
+    "subject_name_en": "CPR Introduction",
+    "type": "true_false",
+    "question_he": "כאשר הלב לא עובד, מיוצר דופק.",
+    "question_en": "When the heart is not working, a pulse is produced.",
+    "correct": false,
+    "explanation_he": "זה שגוי. כאשר הלב לא עובד, לא מיוצר דופק. יש לבדוק דופק בעורק הצוואר (קרוטיד) ללא יותר מ-10 שניות.",
+    "explanation_en": "This is incorrect. When the heart is not working, no pulse is produced. Check pulse at carotid artery for no more than 10 seconds."
+  },
+  {
+    "subject_id": "cpr_intro",
+    "subject_name_he": "מבוא להחייאה",
+    "subject_name_en": "CPR Introduction",
+    "type": "multiple_choice",
+    "question_he": "מהו מרכיבי מערכת הלב וכלי הדם?",
+    "question_en": "What are the components of the cardiovascular system?",
+    "options_he": [
+      "אף, פה, לוע",
+      "לב, עורקים, ורידים, נימים",
+      "ריאות, סימפונות",
+      "מוח, חוט השדרה"
+    ],
+    "options_en": [
+      "Nose, mouth, pharynx",
+      "Heart, arteries, veins, capillaries",
+      "Lungs, bronchi",
+      "Brain, spinal cord"
+    ],
+    "correct": 1,
+    "explanation_he": "מערכת הלב וכלי הדם מורכבת מ: לב, עורקים (מוציאים דם), ורידים (מחזירים דם), ונימים (חילוף חומרים).",
+    "explanation_en": "The cardiovascular system consists of: heart, arteries (carry blood out), veins (return blood), and capillaries (exchange substances)."
+  },
+  {
+    "subject_id": "electrophysiology",
+    "subject_name_he": "אלקטרופיזיולוגיה של הלב",
+    "subject_name_en": "Cardiac Electrophysiology",
+    "type": "multiple_choice",
+    "question_he": "בן אדם ממוצע בן 75 שנה, כמה פעמים לערך פועם הלב?",
+    "question_en": "How many times does the average human heart beat over 75 years of life?",
+    "options_he": [
+      "כ-1 מיליארד פעמים",
+      "כ-2 מיליארד פעמים",
+      "כ-3 מיליארד פעמים",
+      "כ-5 מיליארד פעמים"
+    ],
+    "options_en": [
+      "Approximately 1 billion times",
+      "Approximately 2 billion times",
+      "Approximately 3 billion times",
+      "Approximately 5 billion times"
+    ],
+    "correct": 2,
+    "explanation_he": "לב בריא פועם בקצב של 60-100 פעמים בדקה, מה שמסתכם לכ-3 מיליארד פעמות במהלך 75 שנות חייו של אדם ממוצע.",
+    "explanation_en": "A healthy heart beats at a rate of 60-100 times per minute, which adds up to approximately 3 billion beats over a 75-year lifespan."
+  },
+  {
+    "subject_id": "electrophysiology",
+    "subject_name_he": "אלקטרופיזיולוגיה של הלב",
+    "subject_name_en": "Cardiac Electrophysiology",
+    "type": "true_false",
+    "question_he": "הקוצב הראשי (S-A node) משחרר דחפים בקצב של 120-140 בדקה.",
+    "question_en": "The primary pacemaker (S-A node) releases impulses at a rate of 120-140 per minute.",
+    "correct": false,
+    "explanation_he": "הקוצב הראשי משחרר דחפים בקצב של 60-100 בדקה בלבד. קצב של 120-140 בדקה יחשב לטכיקרדיה.",
+    "explanation_en": "The S-A node releases impulses at 60-100 beats per minute. A rate of 120-140 would be considered tachycardia."
+  },
+  {
+    "subject_id": "electrophysiology",
+    "subject_name_he": "אלקטרופיזיולוגיה של הלב",
+    "subject_name_en": "Cardiac Electrophysiology",
+    "type": "multiple_choice",
+    "question_he": "אם הקוצב הראשי אינו מתפקד, איזה מבנה יכול לשמש כגיבוי?",
+    "question_en": "If the primary pacemaker fails, which structure can serve as a backup?",
+    "options_he": [
+      "צומת A-V ביחידה של 40-60 בדקה",
+      "סיבי Purkinje ביחידה של 20-30 בדקה",
+      "קנה הנשימה ביחידה של 30-40 בדקה",
+      "מערכת סימפטטית ביחידה של 50-70 בדקה"
+    ],
+    "options_en": [
+      "A-V node at rate of 40-60 per minute",
+      "Purkinje fibers at rate of 20-30 per minute",
+      "Trachea at rate of 30-40 per minute",
+      "Sympathetic system at rate of 50-70 per minute"
+    ],
+    "correct": 0,
+    "explanation_he": "צומת A-V (Atrioventricular node) יכול לשמש כקוצב משני ולשחרר דחפים בקצב של 40-60 בדקה.",
+    "explanation_en": "The A-V node can serve as a secondary pacemaker and release impulses at 40-60 per minute."
+  },
+  {
+    "subject_id": "electrophysiology",
+    "subject_name_he": "אלקטרופיזיולוגיה של הלב",
+    "subject_name_en": "Cardiac Electrophysiology",
+    "type": "multiple_choice",
+    "question_he": "כמה זמן לוקח לזרם חשמלי להיעכב בצומת A-V?",
+    "question_en": "How long does the electrical current remain delayed at the A-V node?",
+    "options_he": [
+      "0.05-0.1 שניות",
+      "0.12-0.2 שניות",
+      "0.3-0.4 שניות",
+      "0.5-0.7 שניות"
+    ],
+    "options_en": [
+      "0.05-0.1 seconds",
+      "0.12-0.2 seconds",
+      "0.3-0.4 seconds",
+      "0.5-0.7 seconds"
+    ],
+    "correct": 1,
+    "explanation_he": "הזעיקה בצומת A-V נמשכת 0.12-0.2 שניות כדי לאפשר לעליות להתכווץ ולמלא את החדרים.",
+    "explanation_en": "The delay at the A-V node lasts 0.12-0.2 seconds to allow the atria to contract and fill the ventricles."
+  },
+  {
+    "subject_id": "electrophysiology",
+    "subject_name_he": "אלקטרופיזיולוגיה של הלב",
+    "subject_name_en": "Cardiac Electrophysiology",
+    "type": "true_false",
+    "question_he": "תקופה רפרקטורית בלבבריא אמורה להגן עלינו מגרויים חשמליים מקרים במהלך הסיסטולה.",
+    "question_en": "A refractory period in a healthy heart is supposed to protect us from accidental electrical stimuli during systole.",
+    "correct": true,
+    "explanation_he": "התקופה הרפרקטורית (כ-200 מילישניות) מבטיחה שגרויים מקריים לא יגרמו להתכווצויות לא סדורות במהלך הסיסטולה.",
+    "explanation_en": "The refractory period (~200 milliseconds) ensures that accidental stimuli cannot cause chaotic contractions during systole."
+  },
+  {
+    "subject_id": "electrophysiology",
+    "subject_name_he": "אלקטרופיזיולוגיה של הלב",
+    "subject_name_en": "Cardiac Electrophysiology",
+    "type": "multiple_choice",
+    "question_he": "במהלך דה-פולריזציה, מה קורה לתאי המיוקרד?",
+    "question_en": "During depolarization, what happens to myocardial cells?",
+    "options_he": [
+      "נתרן נכנס במהירות לתא, המתח משתנה מ-90- ל+20",
+      "אשלגן נכנס לתא, המתח משתנה מ-90- ל+10",
+      "סידן עוזב את התא, המתח משתנה מ-90- ל+30",
+      "כל היונים עוזבים את התא בו זמנית"
+    ],
+    "options_en": [
+      "Sodium rapidly enters the cell, voltage changes from -90 to +20",
+      "Potassium enters the cell, voltage changes from -90 to +10",
+      "Calcium leaves the cell, voltage changes from -90 to +30",
+      "All ions leave the cell simultaneously"
+    ],
+    "correct": 0,
+    "explanation_he": "בשלב דה-פולריזציה, תעלות הנתרן מהירות נפתחות, מה שגורם לנתרן לזרום פנימה במהירות וגורם לשינוי המתח מ-90- ל+20.",
+    "explanation_en": "During depolarization, fast sodium channels open, causing sodium to rush in rapidly and changing voltage from -90 to +20."
+  },
+  {
+    "subject_id": "electrophysiology",
+    "subject_name_he": "אלקטרופיזיולוגיה של הלב",
+    "subject_name_en": "Cardiac Electrophysiology",
+    "type": "multiple_choice",
+    "question_he": "בשלב Plateau (שלב 2), איזה יון נכנס לתא לשם ביצוע ההתכווצות?",
+    "question_en": "In the Plateau phase (Phase 2), which ion enters the cell to help with contraction?",
+    "options_he": [
+      "נתרן",
+      "אשלגן",
+      "סידן",
+      "כלור"
+    ],
+    "options_en": [
+      "Sodium",
+      "Potassium",
+      "Calcium",
+      "Chloride"
+    ],
+    "correct": 2,
+    "explanation_he": "בשלב ה-Plateau, תעלות הסידן נפתחות, וסידן נכנס לתא דרך הממברנה כדי לעזור בהתכווצות שריר הלב.",
+    "explanation_en": "During Plateau phase, calcium channels open and calcium enters the cell to facilitate myocardial contraction."
+  },
+  {
+    "subject_id": "electrophysiology",
+    "subject_name_he": "אלקטרופיזיולוגיה של הלב",
+    "subject_name_en": "Cardiac Electrophysiology",
+    "type": "true_false",
+    "question_he": "תאי הקוצב יש להם שלב 4 בפוטנציאל הפעולה שלהם.",
+    "question_en": "Pacemaker cells have Phase 4 in their action potential.",
+    "correct": false,
+    "explanation_he": "תאי הקוצב אינם בעלי שלב 4 קבוע כמו תאי שריר הלב. במקום זאת, פוטנציאל המנוחה שלהם יורד באופן תמידי (שלב 4 בדה-פולריזציה ספונטנית).",
+    "explanation_en": "Pacemaker cells lack a stable Phase 4. Instead, their resting potential continuously drifts downward (Phase 4 is spontaneous depolarization)."
+  },
+  {
+    "subject_id": "electrophysiology",
+    "subject_name_he": "אלקטרופיזיולוגיה של הלב",
+    "subject_name_en": "Cardiac Electrophysiology",
+    "type": "multiple_choice",
+    "question_he": "מה פירוש המונח 'אוטומטיות' בהקשר של התפקוד של הלב?",
+    "question_en": "What does 'automaticity' mean in the context of cardiac function?",
+    "options_he": [
+      "יכולת הלב להגיב לגרויים",
+      "היכולת של רקמה מסוימת לבצע דה-פולריזציה עצמונית",
+      "יכולת הלב להזרים דם ללא שליטה עצבית",
+      "היכולת לשלוח דחפים מהירים לאורך מערכת ההולכה"
+    ],
+    "options_en": [
+      "Ability of heart to respond to stimuli",
+      "Ability of certain tissue to perform self-initiated depolarization",
+      "Ability of heart to pump without neural control",
+      "Ability to send fast impulses along the conduction system"
+    ],
+    "correct": 1,
+    "explanation_he": "אוטומטיות היא היכולת של רקמה מסוימת (בעיקר תאי קוצב) לבצע דה-פולריזציה ספונטנית ללא גירוי חיצוני.",
+    "explanation_en": "Automaticity is the ability of certain tissue (especially pacemaker cells) to perform spontaneous depolarization without external stimulation."
+  },
+  {
+    "subject_id": "electrophysiology",
+    "subject_name_he": "אלקטרופיזיולוגיה של הלב",
+    "subject_name_en": "Cardiac Electrophysiology",
+    "type": "true_false",
+    "question_he": "סיבי Purkinje מוליכים את הזרם החשמלי מהר יותר מעורקיקים.",
+    "question_en": "Purkinje fibers conduct electrical current faster than arterioles.",
+    "correct": true,
+    "explanation_he": "סיבי Purkinje הם בעלי קוצביות גבוהה ומוליכים את הדחפים החשמליים במהירות גבוהה במיוקרד החדרי.",
+    "explanation_en": "Purkinje fibers have high conductivity and transmit electrical impulses rapidly throughout the ventricular myocardium."
+  },
+  {
+    "subject_id": "electrophysiology",
+    "subject_name_he": "אלקטרופיזיולוגיה של הלב",
+    "subject_name_en": "Cardiac Electrophysiology",
+    "type": "multiple_choice",
+    "question_he": "מה הם Gap Junctions במיוקרד?",
+    "question_en": "What are Gap Junctions in myocardium?",
+    "options_he": [
+      "משאבות לחלוקת יונים בין תאים",
+      "צמתים של קישור חשמלי לאורך סיבי השריר",
+      "קשרים בין עצבים לשריר",
+      "ערוצים להעברת חמצן"
+    ],
+    "options_en": [
+      "Pumps for ion distribution between cells",
+      "Electrical connection points along muscle fibers",
+      "Connections between nerves and muscle",
+      "Channels for oxygen transfer"
+    ],
+    "correct": 1,
+    "explanation_he": "Gap Junctions הם צמתים של קישור חשמלי המאפשרים עברת דחפים חשמליים בין תאי שריר הלב.",
+    "explanation_en": "Gap Junctions are electrical connection points that allow electrical impulses to pass between cardiac muscle cells."
+  },
+  {
+    "subject_id": "medical_terminology",
+    "subject_name_he": "מושגי יסוד וטרמינולוגיה",
+    "subject_name_en": "Medical Terminology",
+    "type": "multiple_choice",
+    "question_he": "מה משמעות התחילית 'Cardio' בטרמינולוגיה רפואית?",
+    "question_en": "What does the prefix 'Cardio' mean in medical terminology?",
+    "options_he": [
+      "ריאות",
+      "לב",
+      "כבד",
+      "כליה"
+    ],
+    "options_en": [
+      "Lung",
+      "Heart",
+      "Liver",
+      "Kidney"
+    ],
+    "correct": 1,
+    "explanation_he": "'Cardio' משמעותו לב. למשל, 'Myocardium' משמעותו שריר הלב.",
+    "explanation_en": "'Cardio' means heart. For example, 'Myocardium' means heart muscle."
+  },
+  {
+    "subject_id": "medical_terminology",
+    "subject_name_he": "מושגי יסוד וטרמינולוגיה",
+    "subject_name_en": "Medical Terminology",
+    "type": "true_false",
+    "question_he": "'Pneumonia' היא דלקת בריאות.",
+    "question_en": "'Pneumonia' is an inflammation of the lungs.",
+    "correct": true,
+    "explanation_he": "'Pneumo' משמעותו ריאות או נשימה, ו-'-itis' משמעותו דלקת. לכן 'Pneumonia' היא דלקת בריאות.",
+    "explanation_en": "'Pneumo' means lung/breathing, and '-itis' means inflammation. Therefore 'Pneumonia' is lung inflammation."
+  },
+  {
+    "subject_id": "medical_terminology",
+    "subject_name_he": "מושגי יסוד וטרמינולוגיה",
+    "subject_name_en": "Medical Terminology",
+    "type": "multiple_choice",
+    "question_he": "איזה מן הבאים הוא תחום של רפואה שעוסק בטיפול בסוגי סרטן שונים?",
+    "question_en": "Which of the following is a field of medicine dealing with treatment of various cancers?",
+    "options_he": [
+      "Oncology",
+      "Dermatology",
+      "Neurology",
+      "Orthopedics"
+    ],
+    "options_en": [
+      "Oncology",
+      "Dermatology",
+      "Neurology",
+      "Orthopedics"
+    ],
+    "correct": 0,
+    "explanation_he": "'Onco' משמעותו גידול או סרטן, ו-'-logy' משמעותו תורה או תחום. Oncology היא תורת השאתות (הסרטן).",
+    "explanation_en": "'Onco' means tumor/cancer, and '-logy' means study. Oncology is the study of cancers."
+  },
+  {
+    "subject_id": "medical_terminology",
+    "subject_name_he": "מושגי יסוד וטרמינולוגיה",
+    "subject_name_en": "Medical Terminology",
+    "type": "multiple_choice",
+    "question_he": "מה משמעות הסיומת '-ectomy' בטרמינולוגיה רפואית?",
+    "question_en": "What does the suffix '-ectomy' mean in medical terminology?",
+    "options_he": [
+      "דלקת",
+      "הרחקה כירורגית",
+      "חולשה",
+      "פחד"
+    ],
+    "options_en": [
+      "Inflammation",
+      "Surgical removal",
+      "Weakness",
+      "Fear"
+    ],
+    "correct": 1,
+    "explanation_he": "'-Ectomy' משמעותו הרחקה כירורגית. למשל, 'Prostatectomy' היא הרחקה כירורגית של בלוטת הערמונית.",
+    "explanation_en": "'-Ectomy' means surgical removal. For example, 'Prostatectomy' is surgical removal of the prostate gland."
+  },
+  {
+    "subject_id": "medical_terminology",
+    "subject_name_he": "מושגי יסוד וטרמינולוגיה",
+    "subject_name_en": "Medical Terminology",
+    "type": "true_false",
+    "question_he": "'Hematuria' משמעותה דם בשתן.",
+    "question_en": "'Hematuria' means blood in urine.",
+    "correct": true,
+    "explanation_he": "'Hemato' או 'Hema' משמעותם דם, ו-'uria' משמעותה שתן. אם כן, 'Hematuria' היא נוכחות דם בשתן.",
+    "explanation_en": "'Hemato/Hema' means blood, and 'uria' means urine. Therefore 'Hematuria' is the presence of blood in urine."
+  },
+  {
+    "subject_id": "medical_terminology",
+    "subject_name_he": "מושגי יסוד וטרמינולוגיה",
+    "subject_name_en": "Medical Terminology",
+    "type": "multiple_choice",
+    "question_he": "מה משמעות הקידומת 'Hyper-' בטרמינולוגיה רפואית?",
+    "question_en": "What does the prefix 'Hyper-' mean in medical terminology?",
+    "options_he": [
+      "מתחת ל",
+      "מעל / יתר",
+      "אבל",
+      "שווה"
+    ],
+    "options_en": [
+      "Below / deficient",
+      "Above / excessive",
+      "But",
+      "Equal"
+    ],
+    "correct": 1,
+    "explanation_he": "'Hyper-' משמעותו מעל / יתר. למשל, 'Hypercalcemia' משמעותה יתר סידן בדם.",
+    "explanation_en": "'Hyper-' means above/excessive. For example, 'Hypercalcemia' means excessive calcium in blood."
+  },
+  {
+    "subject_id": "medical_terminology",
+    "subject_name_he": "מושגי יסוד וטרמינולוגיה",
+    "subject_name_en": "Medical Terminology",
+    "type": "multiple_choice",
+    "question_he": "איזה קידומת משמעותה 'תחת' או 'פחות'?",
+    "question_en": "Which prefix means 'below' or 'deficient'?",
+    "options_he": [
+      "Hyper-",
+      "Hypo-",
+      "Poly-",
+      "Mono-"
+    ],
+    "options_en": [
+      "Hyper-",
+      "Hypo-",
+      "Poly-",
+      "Mono-"
+    ],
+    "correct": 1,
+    "explanation_he": "'Hypo-' משמעותו מתחת / פחות. למשל, 'Hypokalemia' משמעותה תת אשלגן בדם.",
+    "explanation_en": "'Hypo-' means below/deficient. For example, 'Hypokalemia' means deficient potassium in blood."
+  },
+  {
+    "subject_id": "medical_terminology",
+    "subject_name_he": "מושגי יסוד וטרמינולוגיה",
+    "subject_name_en": "Medical Terminology",
+    "type": "true_false",
+    "question_he": "'Arthritis' היא דלקת בעצמות.",
+    "question_en": "'Arthritis' is inflammation of bones.",
+    "correct": false,
+    "explanation_he": "'Arthro' משמעותה מפרק, לא עצם. 'Arthritis' היא דלקת במפרקים. 'Osteitis' היא דלקת בעצמות.",
+    "explanation_en": "'Arthro' means joint, not bone. 'Arthritis' is inflammation of joints. 'Osteitis' is inflammation of bones."
+  },
+  {
+    "subject_id": "medical_terminology",
+    "subject_name_he": "מושגי יסוד וטרמינולוגיה",
+    "subject_name_en": "Medical Terminology",
+    "type": "multiple_choice",
+    "question_he": "מה משמעות 'Bronchoscopy'?",
+    "question_en": "What does 'Bronchoscopy' mean?",
+    "options_he": [
+      "ניתוח של ספינה",
+      "הסתכלות לתוך הסימפונות",
+      "השרה של סימפון",
+      "הסרת סימפון"
+    ],
+    "options_en": [
+      "Surgery of a vessel",
+      "Looking inside the bronchi",
+      "Intubation of bronchus",
+      "Removal of bronchus"
+    ],
+    "correct": 1,
+    "explanation_he": "'Broncho' משמעותה סימפונה, ו-'scopy' משמעותה הסתכלות על / בדיקה. לכן 'Bronchoscopy' היא בדיקה כלל-סימפונית.",
+    "explanation_en": "'Broncho' means bronchus, and 'scopy' means looking at/examination. Therefore 'Bronchoscopy' is examination inside the bronchi."
+  },
+  {
+    "subject_id": "respiratory_anatomy",
+    "subject_name_he": "אנטומיה של מערכת הנשימה",
+    "subject_name_en": "Respiratory Anatomy",
+    "type": "multiple_choice",
+    "question_he": "אילו חלקים מהווים את מערכת הנשימה העליונה?",
+    "question_en": "Which structures comprise the upper respiratory system?",
+    "options_he": [
+      "אף, לוע, גרון",
+      "סימפונות וריאות",
+      "נאדיות ודקים",
+      "קנה נשימה בלבד"
+    ],
+    "options_en": [
+      "Nose, pharynx, larynx",
+      "Bronchi and lungs",
+      "Alveoli and ducts",
+      "Trachea only"
+    ],
+    "correct": 0,
+    "explanation_he": "מערכת הנשימה העליונה כוללת את האף, הלוע (Pharynx) והגרון (Larynx).",
+    "explanation_en": "The upper respiratory system includes the nose, pharynx, and larynx."
+  },
+  {
+    "subject_id": "respiratory_anatomy",
+    "subject_name_he": "אנטומיה של מערכת הנשימה",
+    "subject_name_en": "Respiratory Anatomy",
+    "type": "true_false",
+    "question_he": "הריאה הימנית בעלת 2 אונות בעוד שהריאה השמאלית בעלת 3 אונות.",
+    "question_en": "The right lung has 2 lobes while the left lung has 3 lobes.",
+    "correct": false,
+    "explanation_he": "זה הפוך: הריאה הימנית בעלת 3 אונות (Lobes) כדי לתת מקום ללב, והריאה השמאלית בעלת 2 אונות בלבד.",
+    "explanation_en": "It's the opposite: the right lung has 3 lobes to accommodate the heart, and the left lung has only 2 lobes."
+  },
+  {
+    "subject_id": "respiratory_anatomy",
+    "subject_name_he": "אנטומיה של מערכת הנשימה",
+    "subject_name_en": "Respiratory Anatomy",
+    "type": "multiple_choice",
+    "question_he": "מה הם המטרות העיקריות של מערכת הנשימה?",
+    "question_en": "What are the primary functions of the respiratory system?",
+    "options_he": [
+      "העברת דם וויסות חומציות בלבד",
+      "חילוף גזים (O2/CO2) והומיוסטזיס ושמירה על pH",
+      "יצור קול ופילוג דם",
+      "סינון אוויר בלבד"
+    ],
+    "options_en": [
+      "Blood transport and acid regulation only",
+      "Gas exchange (O2/CO2), homeostasis, and pH maintenance",
+      "Sound production and blood circulation",
+      "Air filtration only"
+    ],
+    "correct": 1,
+    "explanation_he": "תפקידי מערכת הנשימה כוללים: חילוף גזים (O2 ו-CO2), הומיוסטזיס ושמירה על pH, סינון אוויר, ויצור קול.",
+    "explanation_en": "Functions include: gas exchange (O2/CO2), homeostasis and pH maintenance, air filtration, and sound production."
+  },
+  {
+    "subject_id": "respiratory_anatomy",
+    "subject_name_he": "אנטומיה של מערכת הנשימה",
+    "subject_name_en": "Respiratory Anatomy",
+    "type": "multiple_choice",
+    "question_he": "כמה סיגמנטים בריאתיים (Segments) יש בכל ריאה?",
+    "question_en": "How many bronchopulmonary segments are there in each lung?",
+    "options_he": [
+      "2 בימין ו-3 בשמאל",
+      "3 בימין ו-2 בשמאל",
+      "10 בימין ו-9 בשמאל",
+      "5 בכל ריאה"
+    ],
+    "options_en": [
+      "2 on right and 3 on left",
+      "3 on right and 2 on left",
+      "10 on right and 9 on left",
+      "5 in each lung"
+    ],
+    "correct": 2,
+    "explanation_he": "יש 10 סיגמנטים בריאה הימנית ו-9 סיגמנטים בריאה השמאלית כדי להתאים למרחב הלב.",
+    "explanation_en": "There are 10 segments in the right lung and 9 in the left lung to accommodate cardiac space."
+  },
+  {
+    "subject_id": "respiratory_anatomy",
+    "subject_name_he": "אנטומיה של מערכת הנשימה",
+    "subject_name_en": "Respiratory Anatomy",
+    "type": "multiple_choice",
+    "question_he": "מה תפקידה של האפיגלוטיס (Epiglottis)?",
+    "question_en": "What is the function of the epiglottis?",
+    "options_he": [
+      "הפקת קול",
+      "משאבת אוויר לריאות",
+      "סגירת הגרון במהלך בליעה למניעת כניסת אוכל לקנה",
+      "סינון חלקיקים"
+    ],
+    "options_en": [
+      "Sound production",
+      "Pump air to lungs",
+      "Close larynx during swallowing to prevent food entry into trachea",
+      "Particle filtration"
+    ],
+    "correct": 2,
+    "explanation_he": "האפיגלוטיס היא סחוס קטן שמעל הגרון שסוגר אותו במהלך בליעה כדי למנוע כניסת אוכל וזוזלים לקנה הנשימה.",
+    "explanation_en": "The epiglottis is a small cartilage above the larynx that closes it during swallowing to prevent food/fluids from entering the trachea."
+  },
+  {
+    "subject_id": "respiratory_anatomy",
+    "subject_name_he": "אנטומיה של מערכת הנשימה",
+    "subject_name_en": "Respiratory Anatomy",
+    "type": "true_false",
+    "question_he": "עקרון Boyle מתאר יחס ישיר בין נפח הגז לבין הלחץ שלו.",
+    "question_en": "Boyle's Law describes a direct relationship between gas volume and its pressure.",
+    "correct": false,
+    "explanation_he": "עקרון Boyle מתאר יחס הפוך: כאשר נפח גדל, הלחץ יורד, והפוך. זה היסוד של מכניקת הנשימה.",
+    "explanation_en": "Boyle's Law describes an inverse relationship: as volume increases, pressure decreases, and vice versa. This is the basis of breathing mechanics."
+  },
+  {
+    "subject_id": "respiratory_anatomy",
+    "subject_name_he": "אנטומיה של מערכת הנשימה",
+    "subject_name_en": "Respiratory Anatomy",
+    "type": "multiple_choice",
+    "question_he": "מה הוא Tidal Volume (TV)?",
+    "question_en": "What is Tidal Volume (TV)?",
+    "options_he": [
+      "כמות האוויר הנשארת בריאות אחרי נשיפה",
+      "כמות האוויר שנושמים בכל נשימה רגילה",
+      "כמות האוויר המרבית שניתן לנשום",
+      "כמות האוויר שנמצאת בנאדיות בלבד"
+    ],
+    "options_en": [
+      "Air remaining in lungs after exhalation",
+      "Amount of air breathed in normal breath",
+      "Maximum air that can be breathed",
+      "Air found only in alveoli"
+    ],
+    "correct": 1,
+    "explanation_he": "Tidal Volume היא כמות האוויר שנושמים בכל נשימה רגילה - בדרך כלל כ-500 סמ\"ק.",
+    "explanation_en": "Tidal Volume is the amount of air breathed in a normal breath - typically about 500 cc."
+  },
+  {
+    "subject_id": "respiratory_anatomy",
+    "subject_name_he": "אנטומיה של מערכת הנשימה",
+    "subject_name_en": "Respiratory Anatomy",
+    "type": "true_false",
+    "question_he": "ה-Pleura (קרום הצדר) תוחמת את הריאות ובנויה משתי שכבות.",
+    "question_en": "The Pleura (pleural membrane) surrounds the lungs and is composed of two layers.",
+    "correct": true,
+    "explanation_he": "קרום הצדר בנוי משתי שכבות: Parietal Pleura (החיצונית) ו-Visceral Pleura (הפנימית) עם חלל בינהן.",
+    "explanation_en": "The pleura consists of two layers: Parietal Pleura (outer) and Visceral Pleura (inner) with a space between them."
+  },
+  {
+    "subject_id": "respiratory_anatomy",
+    "subject_name_he": "אנטומיה של מערכת הנשימה",
+    "subject_name_en": "Respiratory Anatomy",
+    "type": "multiple_choice",
+    "question_he": "במהלך שאיפה (Inspiration), מה קורה לנפח בית החזה?",
+    "question_en": "During inspiration, what happens to the thoracic volume?",
+    "options_he": [
+      "נפח פוחת והלחץ עולה",
+      "נפח עולה והלחץ יורד",
+      "נפח נשאר קבוע",
+      "אף אחד מהנ\"ל"
+    ],
+    "options_en": [
+      "Volume decreases and pressure increases",
+      "Volume increases and pressure decreases",
+      "Volume remains constant",
+      "None of the above"
+    ],
+    "correct": 1,
+    "explanation_he": "במהלך שאיפה, הסרעפת מתכווצת וחוזה למטה, לחץ בית החזה יורד, ואוויר נכנס.",
+    "explanation_en": "During inspiration, the diaphragm contracts and moves down, thoracic pressure decreases, and air enters."
+  },
+  {
+    "subject_id": "respiratory_anatomy",
+    "subject_name_he": "אנטומיה של מערכת הנשימה",
+    "subject_name_en": "Respiratory Anatomy",
+    "type": "multiple_choice",
+    "question_he": "איזה עצם/סחוס מחנקיים בגרון ומשפיעים על קול?",
+    "question_en": "Which cartilages in the larynx vibrate and affect voice?",
+    "options_he": [
+      "Thyroid Cartilage בלבד",
+      "Vocal Cords (Vocal Folds)",
+      "Epiglottis",
+      "Tracheal Rings"
+    ],
+    "options_en": [
+      "Thyroid Cartilage alone",
+      "Vocal Cords (Vocal Folds)",
+      "Epiglottis",
+      "Tracheal Rings"
+    ],
+    "correct": 1,
+    "explanation_he": "מיתרי הקול (Vocal Cords/Vocal Folds) מחנקים בזמן מעבר אוויר וגורמים לייצור קול.",
+    "explanation_en": "The Vocal Cords (Vocal Folds) vibrate as air passes through and produce sound."
+  },
+  {
+    "subject_id": "chemistry",
+    "subject_name_he": "מבוא לכימיה",
+    "subject_name_en": "Introduction to Chemistry",
+    "type": "multiple_choice",
+    "question_he": "מה הוא קטיון?",
+    "question_en": "What is a cation?",
+    "options_he": [
+      "אטום שקיבל אלקטרון וחטופי שלילי",
+      "אטום שאיבד אלקטרון וחטופי חיובי",
+      "מולקולה ניטרלית",
+      "יון בעל מטען כפול"
+    ],
+    "options_en": [
+      "Atom that gained electron with negative charge",
+      "Atom that lost electron with positive charge",
+      "Neutral molecule",
+      "Ion with double charge"
+    ],
+    "correct": 1,
+    "explanation_he": "קטיון הוא יון שאיבד אלקטרון, כך שמספר הפרוטונים גדול ממספר האלקטרונים, ולכן יש לו מטען חיובי.",
+    "explanation_en": "A cation is an ion that lost an electron, so protons outnumber electrons, giving it a positive charge."
+  },
+  {
+    "subject_id": "chemistry",
+    "subject_name_he": "מבוא לכימיה",
+    "subject_name_en": "Introduction to Chemistry",
+    "type": "true_false",
+    "question_he": "אניון הוא יון בעל מטען שלילי.",
+    "question_en": "An anion is an ion with a negative charge.",
+    "correct": true,
+    "explanation_he": "אניון הוא יון שקיבל אלקטרון נוסף, כך שמספר האלקטרונים גדול ממספר הפרוטונים, ולכן יש לו מטען שלילי.",
+    "explanation_en": "An anion is an ion that gained an electron, so electrons outnumber protons, giving it a negative charge."
+  },
+  {
+    "subject_id": "chemistry",
+    "subject_name_he": "מבוא לכימיה",
+    "subject_name_en": "Introduction to Chemistry",
+    "type": "multiple_choice",
+    "question_he": "מה היא מולקולה הידרופילית?",
+    "question_en": "What is a hydrophilic molecule?",
+    "options_he": [
+      "מולקולה שמפחדת ממים",
+      "מולקולה שאוהבת מים ומתמוססת בקלות בהם",
+      "מולקולה קבועה בזמן",
+      "מולקולה קטנה מאד"
+    ],
+    "options_en": [
+      "Molecule that fears water",
+      "Molecule that loves water and dissolves easily in it",
+      "Constant molecule in time",
+      "Very small molecule"
+    ],
+    "correct": 1,
+    "explanation_he": "הידרופילי משמעותו 'אוהב מים'. מולקולה הידרופילית בעלת קשרים חלשים יחסית ומתמוססת בקלות במים.",
+    "explanation_en": "Hydrophilic means 'water-loving'. Such molecules have relatively weak bonds and dissolve easily in water."
+  },
+  {
+    "subject_id": "chemistry",
+    "subject_name_he": "מבוא לכימיה",
+    "subject_name_en": "Introduction to Chemistry",
+    "type": "multiple_choice",
+    "question_he": "איזה סוג קשר הוא הקשוח ביותר?",
+    "question_en": "Which type of bond is the strongest?",
+    "options_he": [
+      "קשר קוולנטי",
+      "קשר פולארי",
+      "קשר יוני",
+      "קשר מימן"
+    ],
+    "options_en": [
+      "Covalent bond",
+      "Polar bond",
+      "Ionic bond",
+      "Hydrogen bond"
+    ],
+    "correct": 0,
+    "explanation_he": "קשר קוולנטי הוא קשר חזק בו שני אטומים חולקים אלקטרון או יותר באופן שווה.",
+    "explanation_en": "A covalent bond is a strong bond where two atoms share one or more electrons equally."
+  },
+  {
+    "subject_id": "chemistry",
+    "subject_name_he": "מבוא לכימיה",
+    "subject_name_en": "Introduction to Chemistry",
+    "type": "true_false",
+    "question_he": "פחמימות מהוות כ-50% ממשקל הגוף.",
+    "question_en": "Carbohydrates make up about 50% of body weight.",
+    "correct": false,
+    "explanation_he": "פחמימות מהוות רק כ-1% ממשקל הגוף. מים מהווים כ-70%.",
+    "explanation_en": "Carbohydrates make up only about 1% of body weight. Water makes up about 70%."
+  },
+  {
+    "subject_id": "chemistry",
+    "subject_name_he": "מבוא לכימיה",
+    "subject_name_en": "Introduction to Chemistry",
+    "type": "multiple_choice",
+    "question_he": "כמה אחוז מן משקל הגוף מהוות שומנים?",
+    "question_en": "What percentage of body weight do fats comprise?",
+    "options_he": [
+      "כ-5%",
+      "כ-10%",
+      "כ-15%",
+      "כ-25%"
+    ],
+    "options_en": [
+      "About 5%",
+      "About 10%",
+      "About 15%",
+      "About 25%"
+    ],
+    "correct": 2,
+    "explanation_he": "שומנים מהווים כ-15% ממשקל הגוף. בעלי מבנה הידרופובי, מכאן אינם מסיסים במים.",
+    "explanation_en": "Fats make up about 15% of body weight. They have a hydrophobic structure, so they don't dissolve in water."
+  },
+  {
+    "subject_id": "chemistry",
+    "subject_name_he": "מבוא לכימיה",
+    "subject_name_en": "Introduction to Chemistry",
+    "type": "multiple_choice",
+    "question_he": "אלו מהחומצות השומניות הללו הן בריאות יותר?",
+    "question_en": "Which of these fatty acids is healthier?",
+    "options_he": [
+      "חומצות שומן רוויות",
+      "חומצות שומן לא רוויות",
+      "אין הבדל",
+      "שניהם מזיקים"
+    ],
+    "options_en": [
+      "Saturated fatty acids",
+      "Unsaturated fatty acids",
+      "No difference",
+      "Both harmful"
+    ],
+    "correct": 1,
+    "explanation_he": "חומצות שומן לא רוויות (מוצאן בזיתים ושמן זית) הן בריאות יותר וגורמות לירידה בכולסטרול.",
+    "explanation_en": "Unsaturated fatty acids (found in olives and olive oil) are healthier and help lower cholesterol."
+  },
+  {
+    "subject_id": "chemistry",
+    "subject_name_he": "מבוא לכימיה",
+    "subject_name_en": "Introduction to Chemistry",
+    "type": "multiple_choice",
+    "question_he": "כמה אחוז מן משקל הגוף מהווים חלבונים?",
+    "question_en": "What percentage of body weight do proteins comprise?",
+    "options_he": [
+      "כ-7%",
+      "כ-12%",
+      "כ-17%",
+      "כ-25%"
+    ],
+    "options_en": [
+      "About 7%",
+      "About 12%",
+      "About 17%",
+      "About 25%"
+    ],
+    "correct": 2,
+    "explanation_he": "חלבונים מהווים כ-17% ממשקל הגוף והם משתתפים בכ-50% מהתהליכים הפיזיולוגיים בגוף.",
+    "explanation_en": "Proteins make up about 17% of body weight and participate in about 50% of physiological processes in the body."
+  },
+  {
+    "subject_id": "chemistry",
+    "subject_name_he": "מבוא לכימיה",
+    "subject_name_en": "Introduction to Chemistry",
+    "type": "true_false",
+    "question_he": "חומצת גרעין (DNA/RNA) מהווה כ-10% ממשקל הגוף.",
+    "question_en": "Nucleic acids (DNA/RNA) make up about 10% of body weight.",
+    "correct": false,
+    "explanation_he": "חומצות גרעין מהוות רק כ-2% ממשקל הגוף. ברוב התאים היא מרוכזת בגרעין התא.",
+    "explanation_en": "Nucleic acids comprise only about 2% of body weight. In most cells, they are concentrated in the nucleus."
+  },
+  {
+    "subject_id": "chemistry",
+    "subject_name_he": "מבוא לכימיה",
+    "subject_name_en": "Introduction to Chemistry",
+    "type": "multiple_choice",
+    "question_he": "מה ההבדל בין DNA ל-RNA?",
+    "question_en": "What is the difference between DNA and RNA?",
+    "options_he": [
+      "DNA מכיל מידע, RNA מתרגם אותו",
+      "DNA משוכפל, RNA אינו",
+      "שניהם זהים לחלוטין",
+      "אין הבדל"
+    ],
+    "options_en": [
+      "DNA contains information, RNA translates it",
+      "DNA replicates, RNA does not",
+      "They are completely identical",
+      "No difference"
+    ],
+    "correct": 0,
+    "explanation_he": "DNA מכיל את המידע הגנטי, בעוד ש-RNA מתרגם את הקוד הגנטי מ-DNA ומחבר שרשראות חלבונים.",
+    "explanation_en": "DNA contains genetic information, while RNA translates the genetic code from DNA and builds protein chains."
+  },
+  {
+    "subject_id": "chemistry",
+    "subject_name_he": "מבוא לכימיה",
+    "subject_name_en": "Introduction to Chemistry",
+    "type": "multiple_choice",
+    "question_he": "מה הוא יון של אשלגן (K+)?",
+    "question_en": "What does K+ ion represent?",
+    "options_he": [
+      "אטום אשלגן שקיבל אלקטרון",
+      "אטום אשלגן שאיבד אלקטרון",
+      "מולקולה של אשלגן",
+      "אלקטרוליט ניטרלי"
+    ],
+    "options_en": [
+      "Potassium atom that gained electron",
+      "Potassium atom that lost electron",
+      "Potassium molecule",
+      "Neutral electrolyte"
+    ],
+    "correct": 1,
+    "explanation_he": "K+ היא יון אשלגן שאיבד אלקטרון אחד, ולכן יש לו מטען חיובי.",
+    "explanation_en": "K+ is a potassium ion that lost one electron, so it carries a positive charge."
+  },
+  {
+    "subject_id": "body_structure",
+    "subject_name_he": "מבנה הגוף",
+    "subject_name_en": "Body Structure",
+    "type": "multiple_choice",
+    "question_he": "כמה אחוז ממשקל הגוף מהוו מים?",
+    "question_en": "What percentage of body weight is water?",
+    "options_he": [
+      "כ-50%",
+      "כ-60%",
+      "כ-70%",
+      "כ-80%"
+    ],
+    "options_en": [
+      "About 50%",
+      "About 60%",
+      "About 70%",
+      "About 80%"
+    ],
+    "correct": 2,
+    "explanation_he": "מים מהווים כ-70% ממשקל הגוף הממוצע.",
+    "explanation_en": "Water comprises approximately 70% of average body weight."
+  },
+  {
+    "subject_id": "body_structure",
+    "subject_name_he": "מבנה הגוף",
+    "subject_name_en": "Body Structure",
+    "type": "true_false",
+    "question_he": "תא הוא היחידה הקטנה ביותר של כל חומר חי.",
+    "question_en": "A cell is the smallest unit of all living matter.",
+    "correct": true,
+    "explanation_he": "התא הוא יחידה הביולוגית הקטנה ביותר של חיים, בעל כל התכונות של אורגניזם חי.",
+    "explanation_en": "The cell is the smallest biological unit of life with all properties of a living organism."
+  },
+  {
+    "subject_id": "body_structure",
+    "subject_name_he": "מבנה הגוף",
+    "subject_name_en": "Body Structure",
+    "type": "multiple_choice",
+    "question_he": "מה היא המיטוכונדריה?",
+    "question_en": "What is the mitochondrion?",
+    "options_he": [
+      "מפעל האנרגיה של התא",
+      "מרכז השליטה של התא",
+      "מחסן החומרים של התא",
+      "תעלות תחבורה של התא"
+    ],
+    "options_en": [
+      "The energy factory of the cell",
+      "Control center of the cell",
+      "Storage depot of the cell",
+      "Transportation channels of the cell"
+    ],
+    "correct": 0,
+    "explanation_he": "מיטוכונדריה היא מפעל האנרגיה של התא, שם מיוצר ATP עבור כל התהליכים בתא.",
+    "explanation_en": "The mitochondrion is the energy factory where ATP is produced for all cellular processes."
+  },
+  {
+    "subject_id": "body_structure",
+    "subject_name_he": "מבנה הגוף",
+    "subject_name_en": "Body Structure",
+    "type": "multiple_choice",
+    "question_he": "איזה מבנה בתא אחראי על עברת חומרים בחזרה לתא?",
+    "question_en": "Which cellular structure is responsible for transporting substances back into the cell?",
+    "options_he": [
+      "קרום התא",
+      "ריבוזום",
+      "מערכת גולגי",
+      "ליזוזום"
+    ],
+    "options_en": [
+      "Cell membrane",
+      "Ribosome",
+      "Golgi system",
+      "Lysosome"
+    ],
+    "correct": 0,
+    "explanation_he": "קרום התא (ממברנה) מאפשר מעבר חילוף חומרים בין הת ואל התא.",
+    "explanation_en": "The cell membrane allows passage of substances into and out of the cell."
+  },
+  {
+    "subject_id": "body_structure",
+    "subject_name_he": "מבנה הגוף",
+    "subject_name_en": "Body Structure",
+    "type": "true_false",
+    "question_he": "דיפוזיה היא תהליך שדורש אנרגיה ATP.",
+    "question_en": "Diffusion is a process that requires ATP energy.",
+    "correct": false,
+    "explanation_he": "דיפוזיה היא תהליך פסיבי שלא דורש אנרגיה. העברה אקטיבית דורשת אנרגיה ATP.",
+    "explanation_en": "Diffusion is a passive process that does not require ATP energy. Active transport requires ATP."
+  },
+  {
+    "subject_id": "body_structure",
+    "subject_name_he": "מבנה הגוף",
+    "subject_name_en": "Body Structure",
+    "type": "multiple_choice",
+    "question_he": "מה היא אוסמוזה?",
+    "question_en": "What is osmosis?",
+    "options_he": [
+      "מעבור מולקולות דרך ממברנה רגילה",
+      "מעבור מים דרך ממברנה בררנית לכיוון ריכוז גבוה יותר",
+      "תהליך המומסת של מלח",
+      "תנועת יונים בעזרת משאבות"
+    ],
+    "options_en": [
+      "Movement of molecules through regular membrane",
+      "Movement of water through semipermeable membrane toward higher concentration",
+      "Salt dissolution process",
+      "Ion movement through pumps"
+    ],
+    "correct": 1,
+    "explanation_he": "אוסמוזה היא מעבור מים דרך ממברנה בררנית מאזור בריכוז נמוך לאזור בריכוז גבוה יותר.",
+    "explanation_en": "Osmosis is water movement through a semipermeable membrane from low to high concentration areas."
+  },
+  {
+    "subject_id": "body_structure",
+    "subject_name_he": "מבנה הגוף",
+    "subject_name_en": "Body Structure",
+    "type": "multiple_choice",
+    "question_he": "כמה סוגי רקמות בסיסיות יש בגוף?",
+    "question_en": "How many basic tissue types are there in the body?",
+    "options_he": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "options_en": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 2,
+    "explanation_he": "4 סוגי רקמות בסיסיות: רקמת שריר, רקמת עצב, רקמת אפיתל (ציפוי), ורקמת חיבור.",
+    "explanation_en": "4 basic tissue types: muscle, nerve, epithelial (lining), and connective tissue."
+  },
+  {
+    "subject_id": "body_structure",
+    "subject_name_he": "מבנה הגוף",
+    "subject_name_en": "Body Structure",
+    "type": "true_false",
+    "question_he": "פוטנציאל מנוחה בתא הוא -90mv.",
+    "question_en": "The resting potential of a cell is -90mv.",
+    "correct": true,
+    "explanation_he": "פוטנציאל המנוחה הן מצב שבו התא בפולריזציה, עם מטען שלילי בפנים (+) בחוץ, בערך -90mv.",
+    "explanation_en": "Resting potential is the state where the cell is polarized with negative charge inside and positive outside, approximately -90mv."
+  },
+  {
+    "subject_id": "body_structure",
+    "subject_name_he": "מבנה הגוף",
+    "subject_name_en": "Body Structure",
+    "type": "multiple_choice",
+    "question_he": "מה הומיאוסטאזיס?",
+    "question_en": "What is homeostasis?",
+    "options_he": [
+      "מצב בו הגוף זקוק לגידול",
+      "סך כל התהליכים השומרים על יציבות הסביבה הפנימית",
+      "תהליך פירוק חומרים",
+      "מצב של חום קבוע בלבד"
+    ],
+    "options_en": [
+      "State where body needs growth",
+      "All processes maintaining stability of internal environment",
+      "Process of nutrient breakdown",
+      "State of constant heat only"
+    ],
+    "correct": 1,
+    "explanation_he": "הומיאוסטאזיס היא סך כל התהליכים השומרים על יציבות הסביבה הפנימית: הרכב כימי, חומציות, וטמפרטורה.",
+    "explanation_en": "Homeostasis is all processes maintaining internal stability: chemical composition, pH, and temperature."
+  },
+  {
+    "subject_id": "body_structure",
+    "subject_name_he": "מבנה הגוף",
+    "subject_name_en": "Body Structure",
+    "type": "multiple_choice",
+    "question_he": "מה ה-pH הנורמלי של הדם?",
+    "question_en": "What is the normal pH of blood?",
+    "options_he": [
+      "7.0-7.15",
+      "7.35-7.45",
+      "7.5-7.65",
+      "7.8-7.95"
+    ],
+    "options_en": [
+      "7.0-7.15",
+      "7.35-7.45",
+      "7.5-7.65",
+      "7.8-7.95"
+    ],
+    "correct": 1,
+    "explanation_he": "ה-pH הנורמלי של הדם הוא 7.35-7.45, שהוא טווח צר מאד לשמירה על תפקודים תקינים.",
+    "explanation_en": "Normal blood pH is 7.35-7.45, a very narrow range essential for normal function."
+  },
+  {
+    "subject_id": "body_structure",
+    "subject_name_he": "מבנה הגוף",
+    "subject_name_en": "Body Structure",
+    "type": "multiple_choice",
+    "question_he": "איזה תהליך מייצר יותר ATP בתא - אירובי או אנאירובי?",
+    "question_en": "Which process produces more ATP in a cell - aerobic or anaerobic?",
+    "options_he": [
+      "אנאירובי",
+      "אירובי",
+      "שניהם שווים",
+      "תלוי בסוג התא"
+    ],
+    "options_en": [
+      "Anaerobic",
+      "Aerobic",
+      "Both equal",
+      "Depends on cell type"
+    ],
+    "correct": 1,
+    "explanation_he": "תהליך אירובי מייצר כ-36 ATP מ-1 גלוקוז, בעוד תהליך אנאירובי מייצר רק 2 ATP.",
+    "explanation_en": "Aerobic process produces ~36 ATP from 1 glucose, while anaerobic produces only 2 ATP."
+  },
+  {
+    "subject_id": "body_structure",
+    "subject_name_he": "מבנה הגוף",
+    "subject_name_en": "Body Structure",
+    "type": "true_false",
+    "question_he": "תהליך אנאירובי מתרחש במיטוכונדריה בלבד.",
+    "question_en": "Anaerobic process occurs only in the mitochondrion.",
+    "correct": false,
+    "explanation_he": "תהליך אנאירובי מתרחש בציטופלזמה, לא במיטוכונדריה. תהליך אירובי מתרחש במיטוכונדריה.",
+    "explanation_en": "Anaerobic process occurs in cytoplasm, not mitochondria. Aerobic process occurs in mitochondria."
+  },
+  {
+    "subject_id": "blood_vessels",
+    "subject_name_he": "כלי דם",
+    "subject_name_en": "Blood Vessels",
+    "type": "multiple_choice",
+    "question_he": "מה התפקיד הראשי של העורקים?",
+    "question_en": "What is the primary function of arteries?",
+    "options_he": [
+      "הובלת דם מהלב לפריפריה",
+      "הובלת דם מהפריפריה ללב",
+      "עיכול כימי",
+      "אחסון דם"
+    ],
+    "options_en": [
+      "Transport blood from heart to periphery",
+      "Transport blood from periphery to heart",
+      "Chemical digestion",
+      "Blood storage"
+    ],
+    "correct": 0,
+    "explanation_he": "עורקים מוביל דם עשיר בחמצן מהלב לפרפריה, וגם משמשים כרזרבת לחץ במערכת הקרדיווסקולרית.",
+    "explanation_en": "Arteries carry oxygen-rich blood from heart to periphery and serve as pressure reservoirs in the cardiovascular system."
+  },
+  {
+    "subject_id": "blood_vessels",
+    "subject_name_he": "כלי דם",
+    "subject_name_en": "Blood Vessels",
+    "type": "true_false",
+    "question_he": "לורידים יש שכבת Media עבה מאוד כמו לעורקים.",
+    "question_en": "Veins have a thick Media layer like arteries.",
+    "correct": false,
+    "explanation_he": "ורידים בעלי שכבת Media יחסית דקה בהשוואה לעורקים. זאת בגלל שהלחץ בורידים נמוך הרבה יותר.",
+    "explanation_en": "Veins have a relatively thin Media layer compared to arteries due to much lower venous pressure."
+  },
+  {
+    "subject_id": "blood_vessels",
+    "subject_name_he": "כלי דם",
+    "subject_name_en": "Blood Vessels",
+    "type": "multiple_choice",
+    "question_he": "מה הם Precapillary Sphincters?",
+    "question_en": "What are Precapillary Sphincters?",
+    "options_he": [
+      "שסתומים בעורקים",
+      "ברזים בין עורקיקים לנימים",
+      "שרירים בחדר הלב",
+      "עצמות קטנות"
+    ],
+    "options_en": [
+      "Valves in arteries",
+      "Valves between arterioles and capillaries",
+      "Heart chamber muscles",
+      "Small bones"
+    ],
+    "correct": 1,
+    "explanation_he": "Precapillary Sphincters הם מנגנונים בין סוף העורקיקים לתחילת הנימים המווסתים את זרימת הדם.",
+    "explanation_en": "Precapillary Sphincters are mechanisms between arterioles and capillaries that regulate blood flow."
+  },
+  {
+    "subject_id": "blood_vessels",
+    "subject_name_he": "כלי דם",
+    "subject_name_en": "Blood Vessels",
+    "type": "multiple_choice",
+    "question_he": "מה הוא הנימים (Capillary)?",
+    "question_en": "What is a capillary?",
+    "options_he": [
+      "כלי דם גדול לתחבורה מהירה",
+      "צינור דק ביותר בו מתבצע חילוף חומרים בין דם לרקמות",
+      "אזור בהלב",
+      "תא בדם"
+    ],
+    "options_en": [
+      "Large blood vessel for fast transport",
+      "Smallest vessel where exchange between blood and tissues occurs",
+      "Area in heart",
+      "Blood cell"
+    ],
+    "correct": 1,
+    "explanation_he": "נימים הם צינורות דקים מאד (קוטר 7-9 אלפיות מ\"מ) בהם מתרחש חילוף החומרים בין הדם לרקמות.",
+    "explanation_en": "Capillaries are very thin tubes (7-9 micrometers diameter) where gas and nutrient exchange between blood and tissues occurs."
+  },
+  {
+    "subject_id": "blood_vessels",
+    "subject_name_he": "כלי דם",
+    "subject_name_en": "Blood Vessels",
+    "type": "true_false",
+    "question_he": "לחץ הדם הסיסטולי נורמלי הוא 120 מ\"מ כספית.",
+    "question_en": "Normal systolic blood pressure is 120 mmHg.",
+    "correct": true,
+    "explanation_he": "לחץ דם סיסטולי נורמלי הוא כ-120 מ\"מ כספית, ודיאסטולי כ-80 מ\"מ כספית.",
+    "explanation_en": "Normal systolic BP is ~120 mmHg and diastolic is ~80 mmHg."
+  },
+  {
+    "subject_id": "blood_vessels",
+    "subject_name_he": "כלי דם",
+    "subject_name_en": "Blood Vessels",
+    "type": "multiple_choice",
+    "question_he": "מה היא Mean Arterial Pressure (MABP)?",
+    "question_en": "What is Mean Arterial Pressure (MABP)?",
+    "options_he": [
+      "ממוצע הלחץ בעורקים",
+      "DBP + 1/3(SBP - DBP)",
+      "לחץ בזמן דיאסטולה בלבד",
+      "לחץ בחדרים בלבד"
+    ],
+    "options_en": [
+      "Average arterial pressure",
+      "DBP + 1/3(SBP - DBP)",
+      "Pressure during diastole only",
+      "Ventricular pressure only"
+    ],
+    "correct": 1,
+    "explanation_he": "MABP מחושבת בנוסחה: DBP + 1/3(SBP - DBP), שהיא המדד החשוב ביותר למושמעות הרקמות.",
+    "explanation_en": "MABP is calculated as: DBP + 1/3(SBP - DBP), the most important measure of tissue perfusion."
+  },
+  {
+    "subject_id": "blood_vessels",
+    "subject_name_he": "כלי דם",
+    "subject_name_en": "Blood Vessels",
+    "type": "true_false",
+    "question_he": "לורידים יש מסתמים חד-כיווניים המסייעים להחזיר דם ללב.",
+    "question_en": "Veins have one-way valves that help return blood to the heart.",
+    "correct": true,
+    "explanation_he": "ורידים בעלים מסתמים חד-כיווניים (Venous Valves) המונעים חזרה של דם.",
+    "explanation_en": "Veins have one-way valves that prevent blood backflow and help return blood to the heart."
+  },
+  {
+    "subject_id": "blood_vessels",
+    "subject_name_he": "כלי דם",
+    "subject_name_en": "Blood Vessels",
+    "type": "multiple_choice",
+    "question_he": "מה הוא החזר ורידי (Venous Return)?",
+    "question_en": "What is Venous Return?",
+    "options_he": [
+      "סך כל הדם בוריד",
+      "כמות הדם החוזרת ללב מהפריפריה",
+      "לחץ בוריד כדרתי",
+      "כמות דם בעורק"
+    ],
+    "options_en": [
+      "Total blood in veins",
+      "Amount of blood returning to heart from periphery",
+      "Pressure in veins",
+      "Amount in artery"
+    ],
+    "correct": 1,
+    "explanation_he": "חזר ורידי היא כמות הדם החוזרת ללב מהפריפריה, תלויה במשאבת השריר השלדי ובמשאבת הנשימה.",
+    "explanation_en": "Venous return is the amount of blood returning to heart from periphery, dependent on skeletal muscle and respiratory pumps."
+  },
+  {
+    "subject_id": "blood_vessels",
+    "subject_name_he": "כלי דם",
+    "subject_name_en": "Blood Vessels",
+    "type": "multiple_choice",
+    "question_he": "כמה זמן לוקח מחזור הדם השלם בגוף?",
+    "question_en": "How long does a complete blood circulation take in the body?",
+    "options_he": [
+      "כ-10 שניות",
+      "כ-30 שניות",
+      "כ-60 שניות (דקה)",
+      "כ-2 דקות"
+    ],
+    "options_en": [
+      "About 10 seconds",
+      "About 30 seconds",
+      "About 60 seconds (1 minute)",
+      "About 2 minutes"
+    ],
+    "correct": 2,
+    "explanation_he": "מחזור הדם המלא (מהלב לפריפריה וחזרה ללב) לוקח בערך דקה אחת בגוף בריא.",
+    "explanation_en": "A complete blood circulation (heart to periphery and back) takes approximately 1 minute in a healthy body."
+  },
+  {
+    "subject_id": "blood_vessels",
+    "subject_name_he": "כלי דם",
+    "subject_name_en": "Blood Vessels",
+    "type": "true_false",
+    "question_he": "אורך כולל של הנימים בגוף הוא כ-96 ק\"מ.",
+    "question_en": "Total length of capillaries in the body is about 96 kilometers.",
+    "correct": true,
+    "explanation_he": "אורכם הכולל של כל הנימים בגוף מגיע לכ-96,000 ק\"מ, היוצרים רשת גדולה מאד לחילוף חומרים.",
+    "explanation_en": "Total capillary length in the body reaches about 96,000 km, creating an immense network for exchange."
+  },
+  {
+    "subject_id": "blood_vessels",
+    "subject_name_he": "כלי דם",
+    "subject_name_en": "Blood Vessels",
+    "type": "multiple_choice",
+    "question_he": "מה משפיע על לחץ הדם בכלי הדם?",
+    "question_en": "What affects blood pressure in blood vessels?",
+    "options_he": [
+      "קוטר כלי הדם בלבד",
+      "קוטר, אורך, צמיגיות דם, ונפח דם",
+      "טמפרטורה בלבד",
+      "רק הלב"
+    ],
+    "options_en": [
+      "Vessel diameter only",
+      "Diameter, length, blood viscosity, and volume",
+      "Temperature only",
+      "Heart only"
+    ],
+    "correct": 1,
+    "explanation_he": "לחץ דם תלוי בכמה גורמים: קוטר כלי הדם, אורך, צמיגיות הדם (כמעט קבוע), ונפח הדם.",
+    "explanation_en": "Blood pressure depends on vessel diameter, length, blood viscosity (nearly constant), and blood volume."
+  },
+  {
+    "subject_id": "urinary_system",
+    "subject_name_he": "מערכת השתן",
+    "subject_name_en": "Urinary System",
+    "type": "multiple_choice",
+    "question_he": "כמה ליטרים דם עוברים דרך הכליות בדקה אחת?",
+    "question_en": "How many liters of blood flow through the kidneys per minute?",
+    "options_he": [
+      "0.5 ליטר",
+      "1.2 ליטר",
+      "2.5 ליטר",
+      "5 ליטר"
+    ],
+    "options_en": [
+      "0.5 liters",
+      "1.2 liters",
+      "2.5 liters",
+      "5 liters"
+    ],
+    "correct": 1,
+    "explanation_he": "הכליות מקבלות 1.2 ליטר דם לדקה, המהווה 20-25% מתפוקת הלב. זה אחד הגדוליות באבריים ביחס למשקלן.",
+    "explanation_en": "The kidneys receive 1.2 liters of blood per minute, which represents 20-25% of cardiac output. This is the highest blood supply to any organ relative to its weight."
+  },
+  {
+    "subject_id": "urinary_system",
+    "subject_name_he": "מערכת השתן",
+    "subject_name_en": "Urinary System",
+    "type": "multiple_choice",
+    "question_he": "מה קצב יצירת הפילטרט הנורמלי בכליות בדקה (GFR)?",
+    "question_en": "What is the normal glomerular filtration rate (GFR) per minute?",
+    "options_he": [
+      "50 מ״ל/דקה",
+      "105-125 מ״ל/דקה",
+      "200 מ״ל/דקה",
+      "300 מ״ל/דקה"
+    ],
+    "options_en": [
+      "50 ml/min",
+      "105-125 ml/min",
+      "200 ml/min",
+      "300 ml/min"
+    ],
+    "correct": 1,
+    "explanation_he": "קצב הסינון הגלומירולארי הנורמלי הוא 125 מ״ל/דקה אצל גברים ו-105 מ״ל/דקה אצל נשים, שמעיד על יעילות סינון תקינה.",
+    "explanation_en": "Normal GFR is 125 ml/min in males and 105 ml/min in females, indicating proper filtration efficiency in the kidneys."
+  },
+  {
+    "subject_id": "urinary_system",
+    "subject_name_he": "מערכת השתן",
+    "subject_name_en": "Urinary System",
+    "type": "multiple_choice",
+    "question_he": "איזה חלק מהנפרון אחראי על 66-80% מהספיגה החוזרת של מים וגלוקוז?",
+    "question_en": "Which part of the nephron is responsible for 66-80% of water and glucose reabsorption?",
+    "options_he": [
+      "לולאת הנלה",
+      "צינור מפותל פרוקסימלי",
+      "צינור מפותל דיסטלי",
+      "צינורית מאספת"
+    ],
+    "options_en": [
+      "Loop of Henle",
+      "Proximal convoluted tubule",
+      "Distal convoluted tubule",
+      "Collecting duct"
+    ],
+    "correct": 1,
+    "explanation_he": "הצינור המפותל הפרוקסימלי (PCT) משמש כאתר סינון שני שבו מתבצע רוב הספיגה החוזרת של חומרים חיוניים כמו גלוקוז ומים.",
+    "explanation_en": "The proximal convoluted tubule (PCT) is the primary site of selective reabsorption where 66-80% of water, glucose, and other vital substances are reabsorbed."
+  },
+  {
+    "subject_id": "urinary_system",
+    "subject_name_he": "מערכת השתן",
+    "subject_name_en": "Urinary System",
+    "type": "true_false",
+    "question_he": "99% מהפילטרט שנוצר ביום נספג חזרה לתוך הגוף.",
+    "question_en": "99% of the filtrate produced per day is reabsorbed back into the body.",
+    "correct": true,
+    "explanation_he": "מתוך כ-180 ליטר של פילטרט שנוצר יומית, רק 1% משמר כשתן סופי. 99% נספגים חזרה דרך הספיגה החוזרת.",
+    "explanation_en": "From approximately 180 liters of filtrate produced daily, only 1% becomes final urine. The remaining 99% is reabsorbed through the reabsorption process."
+  },
+  {
+    "subject_id": "urinary_system",
+    "subject_name_he": "מערכת השתן",
+    "subject_name_en": "Urinary System",
+    "type": "multiple_choice",
+    "question_he": "מה ערך הסף של הגלוקוז בדם שמעליו מופרש גלוקוז בשתן?",
+    "question_en": "What is the threshold blood glucose level above which glucose is excreted in urine?",
+    "options_he": [
+      "100 מ״ג%",
+      "150 מ״ג%",
+      "200 מ״ג%",
+      "250 מ״ג%"
+    ],
+    "options_en": [
+      "100 mg%",
+      "150 mg%",
+      "200 mg%",
+      "250 mg%"
+    ],
+    "correct": 1,
+    "explanation_he": "כאשר ריכוז הגלוקוז בדם עולה על 150 מ״ג%, הערך הסף-כלייתי, מתחיל ההפרש של גלוקוז בשתן (גליקוזוריה).",
+    "explanation_en": "When blood glucose concentration exceeds 150 mg% (the renal threshold), glucose appears in urine (glycosuria) because the carriers for reabsorption are saturated."
+  },
+  {
+    "subject_id": "urinary_system",
+    "subject_name_he": "מערכת השתן",
+    "subject_name_en": "Urinary System",
+    "type": "true_false",
+    "question_he": "ההורמון ADH מפרש מיותרת הכליה.",
+    "question_en": "ADH (Anti-Diuretic Hormone) is secreted by the adrenal gland.",
+    "correct": false,
+    "explanation_he": "ADH מופרש מהחלק האחורי של יותרת המוח (ההיפופיזה), לא מיותרת הכליה. ADH מגביר את ספיגת המים בדקט המאסף.",
+    "explanation_en": "ADH is secreted by the posterior pituitary gland (neurohypophysis), not the adrenal gland. ADH increases water reabsorption in the collecting duct."
+  },
+  {
+    "subject_id": "urinary_system",
+    "subject_name_he": "מערכת השתן",
+    "subject_name_en": "Urinary System",
+    "type": "multiple_choice",
+    "question_he": "מה תפוקת השתן הנורמלית בבוגר?",
+    "question_en": "What is the normal urine output in adults per hour?",
+    "options_he": [
+      "5-10 מ״ל לשעה",
+      "30-50 מ״ל לשעה",
+      "100-150 מ״ל לשעה",
+      "200-300 מ״ל לשעה"
+    ],
+    "options_en": [
+      "5-10 ml/hour",
+      "30-50 ml/hour",
+      "100-150 ml/hour",
+      "200-300 ml/hour"
+    ],
+    "correct": 1,
+    "explanation_he": "תפוקת השתן הנורמלית במבוגר היא 30-50 מ״ל לשעה. כמות זו משתנה בהתאם לצריכת נוזלים, פעילות וגורמים אחרים.",
+    "explanation_en": "Normal urine output in adults is 30-50 ml/hour. This amount varies based on fluid intake, activity level, and other factors."
+  },
+  {
+    "subject_id": "urinary_system",
+    "subject_name_he": "מערכת השתן",
+    "subject_name_en": "Urinary System",
+    "type": "multiple_choice",
+    "question_he": "בכמה חוליות עמוד השדרה ממוקמות הכליות?",
+    "question_en": "At which vertebral levels are the kidneys located?",
+    "options_he": [
+      "T10-T12",
+      "T12-L3",
+      "L1-L4",
+      "L3-L5"
+    ],
+    "options_en": [
+      "T10-T12",
+      "T12-L3",
+      "L1-L4",
+      "L3-L5"
+    ],
+    "correct": 1,
+    "explanation_he": "הכליות ממוקמות מאחורי אברי הבטן בגובה החוליות T12-L3, והן מוגנות חלקית על ידי הצלעות 11 ו-12.",
+    "explanation_en": "The kidneys are located retroperitoneally at the level of vertebrae T12-L3 and are partially protected by ribs 11 and 12."
+  },
+  {
+    "subject_id": "urinary_system",
+    "subject_name_he": "מערכת השתן",
+    "subject_name_en": "Urinary System",
+    "type": "multiple_choice",
+    "question_he": "כמה נפרונים בקירוב יש בכל כליה?",
+    "question_en": "Approximately how many nephrons are present in each kidney?",
+    "options_he": [
+      "50,000",
+      "250,000",
+      "1,000,000",
+      "3,000,000"
+    ],
+    "options_en": [
+      "50,000",
+      "250,000",
+      "1,000,000",
+      "3,000,000"
+    ],
+    "correct": 2,
+    "explanation_he": "כל כליה מכילה כמיליון נפרונים (יחידות תפקודיות). אורך הצינורות של הכליות מגיע לכ-80 קילומטר.",
+    "explanation_en": "Each kidney contains approximately 1 million nephrons (functional units). The total length of kidney tubules is approximately 80 kilometers."
+  },
+  {
+    "subject_id": "urinary_system",
+    "subject_name_he": "מערכת השתן",
+    "subject_name_en": "Urinary System",
+    "type": "true_false",
+    "question_he": "לחץ הפילטרציה הנטו (NFP) בכליות הוא בערך 10 מ״מ כספית.",
+    "question_en": "The net filtration pressure (NFP) in the kidneys is approximately 10 mmHg.",
+    "correct": true,
+    "explanation_he": "NFP = GBHP - CHP - BCOP = 55 - 15 - 30 = 10 mmHg. לחץ זה מופעל לאורך קיר הנימים הגלומירולארים לסינון.",
+    "explanation_en": "NFP = GBHP - CHP - BCOP = 55 - 15 - 30 = 10 mmHg. This pressure gradient drives filtration across the glomerular capillary wall."
+  },
+  {
+    "subject_id": "urinary_system",
+    "subject_name_he": "מערכת השתן",
+    "subject_name_en": "Urinary System",
+    "type": "multiple_choice",
+    "question_he": "אורך השופכה אצל נשים בהשוואה לגברים:",
+    "question_en": "The urethra length in women compared to men:",
+    "options_he": [
+      "זהה",
+      "קצר יותר (כ-3 ס״מ)",
+      "ארוך יותר (כ-20 ס״מ)",
+      "משתנה בגיל"
+    ],
+    "options_en": [
+      "Same",
+      "Shorter (approximately 3 cm)",
+      "Longer (approximately 20 cm)",
+      "Varies with age"
+    ],
+    "correct": 1,
+    "explanation_he": "אצל נשים השופכה אורכה כ-3 ס״מ, בעוד שאצל גברים היא בערך 20 ס״מ. הפרש זה חשוב להבנת טיפול קליני.",
+    "explanation_en": "In women, the urethra is approximately 3 cm long, while in males it is about 20 cm. This anatomical difference is clinically important."
+  },
+  {
+    "subject_id": "cell_respiration",
+    "subject_name_he": "נשימה תאית",
+    "subject_name_en": "Cellular Respiration",
+    "type": "multiple_choice",
+    "question_he": "איזה מבנה בתא הוא המקום העיקרי לייצור ATP?",
+    "question_en": "Which cellular organelle is the primary site of ATP production?",
+    "options_he": [
+      "גרעין",
+      "מיטוכונדריה",
+      "רטיקולום אנדופלזמטי",
+      "ריבוזום"
+    ],
+    "options_en": [
+      "Nucleus",
+      "Mitochondria",
+      "Endoplasmic reticulum",
+      "Ribosome"
+    ],
+    "correct": 1,
+    "explanation_he": "המיטוכונדריה היא המיקום של קטאליזה ופירוק ה-ATP, וזו נחשבת כמו \"כוח הנשימה\" של התא.",
+    "explanation_en": "Mitochondria are responsible for ATP production and are considered the 'powerhouse' of the cell through aerobic respiration."
+  },
+  {
+    "subject_id": "cell_respiration",
+    "subject_name_he": "נשימה תאית",
+    "subject_name_en": "Cellular Respiration",
+    "type": "true_false",
+    "question_he": "המים יכולים לנוע דרך קרום התא באמצעות הלחץ האוסמוזי.",
+    "question_en": "Water can move across the cell membrane through osmotic pressure.",
+    "correct": true,
+    "explanation_he": "המים נעים דרך הממברנה בתהליך האוסמוזה, בו הם נעים מתמיסה מהולה לתמיסה מרוכזת.",
+    "explanation_en": "Water moves across the membrane through osmosis, traveling from dilute to concentrated solutions to maintain osmotic equilibrium."
+  },
+  {
+    "subject_id": "cell_respiration",
+    "subject_name_he": "נשימה תאית",
+    "subject_name_en": "Cellular Respiration",
+    "type": "multiple_choice",
+    "question_he": "מה תפקיד משאבת נתרן-אשלגן בקרום התא?",
+    "question_en": "What is the primary function of the sodium-potassium pump?",
+    "options_he": [
+      "להעביר חומרים בדיפוזיה",
+      "ליצור קוטביות משני צידי הקרום",
+      "לייצור אנרגיה",
+      "להעביר חמצן פנימה"
+    ],
+    "options_en": [
+      "Transport molecules by diffusion",
+      "Create polarity across the membrane",
+      "Produce energy",
+      "Transport oxygen inward"
+    ],
+    "correct": 1,
+    "explanation_he": "משאבת הנתרן-אשלגן משתמשת ב-ATP להנעת 3 יוני נתרן החוצה וכניסת 2 יוני אשלגן, ויוצרת קוטביות חשמלית חיוונית.",
+    "explanation_en": "The Na-K pump uses ATP to maintain ion gradients: pumping 3 Na+ ions out and 2 K+ ions in, creating essential electrical potential across the membrane."
+  },
+  {
+    "subject_id": "cell_respiration",
+    "subject_name_he": "נשימה תאית",
+    "subject_name_en": "Cellular Respiration",
+    "type": "multiple_choice",
+    "question_he": "איזה תהליך מועביר חומרים דרך הקרום בעזרת חלבונים ללא צריכת אנרגיה?",
+    "question_en": "Which process transports molecules across the membrane with the help of proteins without energy?",
+    "options_he": [
+      "הובלה אקטיבית",
+      "דיפוזיה מסודרת",
+      "אנדוציטוזיס",
+      "הובלה ממותגת"
+    ],
+    "options_en": [
+      "Active transport",
+      "Facilitated diffusion",
+      "Endocytosis",
+      "Coupled transport"
+    ],
+    "correct": 1,
+    "explanation_he": "דיפוזיה מסודרת (Facilitated Diffusion) משתמשת בחלבוני נשאים (carriers) להעברת מולקולות בעקבות מפל הריכוזים, ללא צריכת ATP.",
+    "explanation_en": "Facilitated diffusion uses protein carriers to move molecules down their concentration gradient without requiring ATP energy."
+  },
+  {
+    "subject_id": "cell_respiration",
+    "subject_name_he": "נשימה תאית",
+    "subject_name_en": "Cellular Respiration",
+    "type": "true_false",
+    "question_he": "גליקוליפידים וגליקופרוטאינים משמשים כשכבה חוסמת למעבר חומרים.",
+    "question_en": "Glycolipids and glycoproteins serve as a blocking layer for substance passage.",
+    "correct": true,
+    "explanation_he": "סוגי שומנים מיוחדים כגון גליקוליפידים וגליקופרוטאינים יוצרים שכבה חוסמת שמונעת מעבר של חומרים מסוימים דרך הקרום.",
+    "explanation_en": "These specialized lipids and proteins form a protective barrier on the membrane surface that restricts passage of certain substances."
+  },
+  {
+    "subject_id": "cell_respiration",
+    "subject_name_he": "נשימה תאית",
+    "subject_name_en": "Cellular Respiration",
+    "type": "multiple_choice",
+    "question_he": "מה תפקיד הליזוזומים בתא?",
+    "question_en": "What is the primary function of lysosomes in the cell?",
+    "options_he": [
+      "סינתזת חלבונים",
+      "עיכול תאי וחיסול פסולת",
+      "ייצור אנרגיה",
+      "שינוע חומרים"
+    ],
+    "options_en": [
+      "Protein synthesis",
+      "Cellular digestion and waste removal",
+      "Energy production",
+      "Substance transport"
+    ],
+    "correct": 1,
+    "explanation_he": "הליזוזומים משמשים כמערכת העיכול של התא, המכילה אנזימים שמפרקים חומרים זרים וכלים מבולים.",
+    "explanation_en": "Lysosomes are the digestive system of the cell, containing enzymes that break down foreign materials and cellular waste."
+  },
+  {
+    "subject_id": "cell_respiration",
+    "subject_name_he": "נשימה תאית",
+    "subject_name_en": "Cellular Respiration",
+    "type": "multiple_choice",
+    "question_he": "מהו תפקיד הציטוסקלטון בתא?",
+    "question_en": "What is the function of the cytoskeleton in the cell?",
+    "options_he": [
+      "ייצור אנרגיה",
+      "שלד התא, שינויי צורה והתחלקות",
+      "עיכול חומרים",
+      "סינתזת חלבונים"
+    ],
+    "options_en": [
+      "Energy production",
+      "Cell skeleton, shape changes and division",
+      "Substance digestion",
+      "Protein synthesis"
+    ],
+    "correct": 1,
+    "explanation_he": "הציטוסקלטון מהווה שלד את התא, מאפשר שינויי צורה וחלוקת התא, וממלא תפקידים מבניים וקינטיים.",
+    "explanation_en": "The cytoskeleton provides structural support, enables cell shape changes and division, and facilitates intracellular movement."
+  },
+  {
+    "subject_id": "cell_respiration",
+    "subject_name_he": "נשימה תאית",
+    "subject_name_en": "Cellular Respiration",
+    "type": "true_false",
+    "question_he": "חלבונים ואנזימים משמשים להעברת חומרים אל ומחוץ לתא.",
+    "question_en": "Proteins and enzymes serve to transport substances into and out of the cell.",
+    "correct": true,
+    "explanation_he": "חלבוני הקרום (membrane proteins) ואנזימים מסייעים בהובלה מכוונת של חומרים דרך הממברנה, בתהליכים אקטיביים ופסיביים.",
+    "explanation_en": "Membrane proteins and enzymes facilitate targeted transport of substances across the membrane through both active and passive mechanisms."
+  },
+  {
+    "subject_id": "nervous_system",
+    "subject_name_he": "מערכת העצבים",
+    "subject_name_en": "Nervous System",
+    "type": "multiple_choice",
+    "question_he": "כמה נוירונים בערך יש במוח האדם בזמן הלידה?",
+    "question_en": "Approximately how many neurons does the human brain have at birth?",
+    "options_he": [
+      "50 מיליון",
+      "300 מיליון",
+      "1 מיליארד",
+      "100 מיליארד"
+    ],
+    "options_en": [
+      "50 million",
+      "300 million",
+      "1 billion",
+      "100 billion"
+    ],
+    "correct": 1,
+    "explanation_he": "אנו נולדים עם מספר מקסימלי של נוירונים, ובשנת החיים הראשונה המוח גדל מ-300 גרם ל-1 קילוגרם.",
+    "explanation_en": "We are born with the maximum number of neurons. In the first year of life, the brain grows from 300 grams to 1 kilogram."
+  },
+  {
+    "subject_id": "nervous_system",
+    "subject_name_he": "מערכת העצבים",
+    "subject_name_en": "Nervous System",
+    "type": "true_false",
+    "question_he": "תאי העצב יכולים להתחלק כדי ליצור תאים חדשים במוח המבוגר.",
+    "question_en": "Nerve cells can divide to create new cells in the adult brain.",
+    "correct": false,
+    "explanation_he": "לתא עצב אין יכולת חלוקה ואין יכולת שיקום לתאי המוח. עם זאת, תא עצב אחד יודע לעשות תפקיד של תא אחר שמת.",
+    "explanation_en": "Neurons lack the ability to divide and cannot be regenerated in the adult brain. However, a single neuron can take over the function of a dead neuron."
+  },
+  {
+    "subject_id": "nervous_system",
+    "subject_name_he": "מערכת העצבים",
+    "subject_name_en": "Nervous System",
+    "type": "multiple_choice",
+    "question_he": "מה תפקיד הקשרור עצבי (Synapse)?",
+    "question_en": "What is the primary function of a synapse?",
+    "options_he": [
+      "הובלת חומרים בתא",
+      "העברת דחף חשמלי בין תאים",
+      "ייצור אנרגיה",
+      "ספיגת חומרים"
+    ],
+    "options_en": [
+      "Transport of substances in cell",
+      "Transmission of nerve impulses between cells",
+      "Energy production",
+      "Substance reabsorption"
+    ],
+    "correct": 1,
+    "explanation_he": "הסינפסה היא איזור חיבור בין קצה אקסון של נוירון אחד לדנדריטים של נוירון אחר, היא מעבירה דחפים כימיים.",
+    "explanation_en": "A synapse is the connection point between an axon terminal of one neuron and the dendrite of another, transmitting electrical signals via neurotransmitters."
+  },
+  {
+    "subject_id": "nervous_system",
+    "subject_name_he": "מערכת העצבים",
+    "subject_name_en": "Nervous System",
+    "type": "multiple_choice",
+    "question_he": "איזה נוירוטרנסמיטור משמש בעיקר בסינפסות בתוך השריר?",
+    "question_en": "Which neurotransmitter is primarily used at neuromuscular junctions?",
+    "options_he": [
+      "סרוטונין",
+      "דופמין",
+      "אציטילכולין",
+      "נוראדרנלין"
+    ],
+    "options_en": [
+      "Serotonin",
+      "Dopamine",
+      "Acetylcholine",
+      "Noradrenaline"
+    ],
+    "correct": 2,
+    "explanation_he": "אציטילכולין (ACh) הוא הנוירוטרנסמיטור הראשוני בסינפסות נוירו-שריריות, גורם להתכווצות שרירים בעקבות קליטתו על ידי רצפטורים.",
+    "explanation_en": "Acetylcholine (ACh) is the primary neurotransmitter at neuromuscular junctions, causing muscle contraction when received by muscle receptors."
+  },
+  {
+    "subject_id": "nervous_system",
+    "subject_name_he": "מערכת העצבים",
+    "subject_name_en": "Nervous System",
+    "type": "true_false",
+    "question_he": "נורטוקסינים וחומרים דומים כמו הדברות פועלים בתוך הסינפסה.",
+    "question_en": "Nerve toxins and pesticides work by blocking acetylcholinesterase at the synapse.",
+    "correct": true,
+    "explanation_he": "גזי עצבים והדברות (כמו פרתיון ומלתיון) נקשרים לאנזים אציטילכולין אסטראז המפרק את אציטילכולין, מנטרל פעולתו וגורם לפעילות עצבית רציפה.",
+    "explanation_en": "Nerve agents and pesticides bind to acetylcholinesterase, preventing breakdown of acetylcholine, causing continuous nerve stimulation and paralysis."
+  },
+  {
+    "subject_id": "nervous_system",
+    "subject_name_he": "מערכת העצבים",
+    "subject_name_en": "Nervous System",
+    "type": "multiple_choice",
+    "question_he": "איזה לאונה של המוח אחראית על דיבור (מרכז ברוקה)?",
+    "question_en": "Which lobe of the brain contains Broca's area (speech center)?",
+    "options_he": [
+      "אונת ארכית",
+      "אונת ופקית",
+      "אונת ותיידית",
+      "אונת עורפית"
+    ],
+    "options_en": [
+      "Parietal lobe",
+      "Frontal lobe",
+      "Temporal lobe",
+      "Occipital lobe"
+    ],
+    "correct": 1,
+    "explanation_he": "מרכז ברוקה ממוקם באונה הקדמית (ווקסית), וזה אחראי על מבנה המשפט וההיגיון של הדיבור. הוא נמצא רק בצד שמאל.",
+    "explanation_en": "Broca's area is located in the frontal lobe and is responsible for speech production and sentence structure. It is typically found only in the left hemisphere."
+  },
+  {
+    "subject_id": "nervous_system",
+    "subject_name_he": "מערכת העצבים",
+    "subject_name_en": "Nervous System",
+    "type": "multiple_choice",
+    "question_he": "מה תפקיד המוח הקטן (Cerebellum)?",
+    "question_en": "What are the primary functions of the cerebellum?",
+    "options_he": [
+      "בקרה על טמפרטורה וחמצן",
+      "שיווי משקל וקואורדינציה",
+      "עיבוד שמיעה וריח",
+      "בקרה על זיכרון"
+    ],
+    "options_en": [
+      "Temperature and oxygen control",
+      "Balance and coordination",
+      "Hearing and smell processing",
+      "Memory control"
+    ],
+    "correct": 1,
+    "explanation_he": "המוח הקטן אחראי על שיווי משקל, קואורדינציה בין מוח ושריר, טונוס שרירים ופעולות עדינות של העיניים.",
+    "explanation_en": "The cerebellum controls balance, coordination between brain and muscles, muscle tone, and fine eye movements."
+  },
+  {
+    "subject_id": "nervous_system",
+    "subject_name_he": "מערכת העצבים",
+    "subject_name_en": "Nervous System",
+    "type": "true_false",
+    "question_he": "המוח הקטן הוא החלק הראשון שנפגע מאלכוהול.",
+    "question_en": "The cerebellum is the first part of the brain damaged by alcohol.",
+    "correct": true,
+    "explanation_he": "המוח הקטן נחשב לחלק הכי רגיש לאלכוהול והוא הראשון שנפגע, דבר שמוביל לחוסר איזון וקואורדינציה.",
+    "explanation_en": "The cerebellum is most sensitive to alcohol and is the first brain region to be damaged, leading to loss of balance and coordination."
+  },
+  {
+    "subject_id": "nervous_system",
+    "subject_name_he": "מערכת העצבים",
+    "subject_name_en": "Nervous System",
+    "type": "multiple_choice",
+    "question_he": "כמה זוגות של עצבים קרניאליים יש באדם?",
+    "question_en": "How many pairs of cranial nerves does a human have?",
+    "options_he": [
+      "6 זוגות",
+      "8 זוגות",
+      "12 זוגות",
+      "15 זוגות"
+    ],
+    "options_en": [
+      "6 pairs",
+      "8 pairs",
+      "12 pairs",
+      "15 pairs"
+    ],
+    "correct": 2,
+    "explanation_he": "יש 12 זוגות של עצבים קרניאליים המתחברים ישירות למוח, מה שנחשב למיוחד בהשוואה לעצבים שדרגיים.",
+    "explanation_en": "There are 12 pairs of cranial nerves that connect directly to the brain. They are numbered I through XII and serve specific regions of the head and body."
+  },
+  {
+    "subject_id": "cardiovascular",
+    "subject_name_he": "מערכת הקרדיווסקולארית",
+    "subject_name_en": "Cardiovascular System",
+    "type": "multiple_choice",
+    "question_he": "מה תפוקת הלב הנורמלית במנוחה?",
+    "question_en": "What is the normal cardiac output at rest?",
+    "options_he": [
+      "2.5 ליטר/דקה",
+      "5.25 ליטר/דקה",
+      "8 ליטר/דקה",
+      "10 ליטר/דקה"
+    ],
+    "options_en": [
+      "2.5 liters/min",
+      "5.25 liters/min",
+      "8 liters/min",
+      "10 liters/min"
+    ],
+    "correct": 1,
+    "explanation_he": "תפוקת הלב בעיתוק היא כ-5.25 ליטר/דקה (CO = SV × HR = 70 × 75). בזמן מאמץ היא עולה לכ-10-19.5 ליטרים/דקה.",
+    "explanation_en": "Resting cardiac output is approximately 5.25 liters/min (CO = 70 ml SV × 75 bpm HR). During exercise it increases to 10-19.5 liters/min."
+  },
+  {
+    "subject_id": "cardiovascular",
+    "subject_name_he": "מערכת הקרדיווסקולארית",
+    "subject_name_en": "Cardiovascular System",
+    "type": "true_false",
+    "question_he": "המסתם האטריוונטריקולארי סוגר כדי למנוע זרימת דם חזרה מהחדרים לפרוזודור.",
+    "question_en": "The atrioventricular valve closes to prevent backflow of blood from ventricles to atria.",
+    "correct": true,
+    "explanation_he": "המסתמים האטריוונטריקולאריים (מיטראלי וטריקוספידלי) סוגרים במהלך סיסטולה של החדרים, ומונעים חזרת דם לפרוזודור.",
+    "explanation_en": "The atrioventricular valves close during ventricular systole, preventing blood backflow (regurgitation) into the atria."
+  },
+  {
+    "subject_id": "cardiovascular",
+    "subject_name_he": "מערכת הקרדיווסקולארית",
+    "subject_name_en": "Cardiovascular System",
+    "type": "multiple_choice",
+    "question_he": "מהו נפח הפעימה הנורמלי בבוגר במנוחה?",
+    "question_en": "What is the normal stroke volume in a resting adult?",
+    "options_he": [
+      "50 מ״ל",
+      "70 מ״ל",
+      "100 מ״ל",
+      "140 מ״ל"
+    ],
+    "options_en": [
+      "50 ml",
+      "70 ml",
+      "100 ml",
+      "140 ml"
+    ],
+    "correct": 1,
+    "explanation_he": "נפח הפעימה בעיתוק הוא בערך 70 מ״ל, המחושב כ- SV = EDV - ESV = 130 - 60 = 70 מ״ל.",
+    "explanation_en": "Normal resting stroke volume is approximately 70 ml, calculated as SV = EDV - ESV = 130 - 60 = 70 ml."
+  },
+  {
+    "subject_id": "cardiovascular",
+    "subject_name_he": "מערכת הקרדיווסקולארית",
+    "subject_name_en": "Cardiovascular System",
+    "type": "multiple_choice",
+    "question_he": "איזה עורק מספק דם לחדר שמאל וכן לפרוזודור שמאל?",
+    "question_en": "Which coronary artery supplies the left ventricle and left atrium?",
+    "options_he": [
+      "RCA",
+      "LCA/LAD",
+      "Circumflex",
+      "PDA"
+    ],
+    "options_en": [
+      "RCA",
+      "LCA/LAD",
+      "Circumflex",
+      "PDA"
+    ],
+    "correct": 1,
+    "explanation_he": "העורק הכלילי השמאלי (LCA) מתחלק ל-LAD (Circumflex) ו-Circumflex, אשר מספקים דם לחדר שמאל ולפרוזודור שמאל.",
+    "explanation_en": "The left coronary artery (LCA) divides into LAD and Circumflex branches, supplying the left ventricle and left atrium."
+  },
+  {
+    "subject_id": "cardiovascular",
+    "subject_name_he": "מערכת הקרדיווסקולארית",
+    "subject_name_en": "Cardiovascular System",
+    "type": "true_false",
+    "question_he": "לחץ הדם הנורמלי בעורקים גדול מלחץ הדם בורידים.",
+    "question_en": "Normal blood pressure in arteries is much higher than in veins.",
+    "correct": true,
+    "explanation_he": "לחץ דם סיסטולי בעורקים הוא בערך 120 מ״מ כספית בהשוואה ל-5-8 מ״מ כספית בורידים, בגלל שכבת השריר העבה בעורקים.",
+    "explanation_en": "Systolic blood pressure in arteries is about 120 mmHg compared to 5-8 mmHg in veins, due to the thick muscular layer in arteries."
+  },
+  {
+    "subject_id": "cardiovascular",
+    "subject_name_he": "מערכת הקרדיווסקולארית",
+    "subject_name_en": "Cardiovascular System",
+    "type": "multiple_choice",
+    "question_he": "מה תפקיד ה-Baroreceptors בבקרת לחץ הדם?",
+    "question_en": "What is the role of baroreceptors in blood pressure regulation?",
+    "options_he": [
+      "מדידת חמצון הדם",
+      "איתור שינויים בלחץ דם",
+      "בקרה על פעולת הלב",
+      "רגישות לקול"
+    ],
+    "options_en": [
+      "Measure blood oxygenation",
+      "Detect changes in blood pressure",
+      "Control heart function",
+      "Sound sensitivity"
+    ],
+    "correct": 1,
+    "explanation_he": "ברורצפטורים בסינוס קרוטידי ובקשת אורטה מזהים שינויים בלחץ דם וממתגים רפלקסים לשמירה על לחץ דם תקין.",
+    "explanation_en": "Baroreceptors in the carotid sinus and aortic arch detect blood pressure changes and trigger reflexes to maintain stable blood pressure."
+  },
+  {
+    "subject_id": "cardiovascular",
+    "subject_name_he": "מערכת הקרדיווסקולארית",
+    "subject_name_en": "Cardiovascular System",
+    "type": "multiple_choice",
+    "question_he": "איזה מערכת עצבית מגביר את קצב הלב?",
+    "question_en": "Which nervous system increases heart rate?",
+    "options_he": [
+      "סימפתטי",
+      "פרא-סימפתטי",
+      "שניהם באותה מידה",
+      "מערכת עצבית היקפית"
+    ],
+    "options_en": [
+      "Sympathetic",
+      "Parasympathetic",
+      "Both equally",
+      "Peripheral nervous system"
+    ],
+    "correct": 0,
+    "explanation_he": "המערכת הסימפתטית מגבירה את קצב הלב, כוח ההתכווצות, וגם גורמת לוואזוקונסטריקציה. זה קשור לתגובת \"לחימה או בריחה\".",
+    "explanation_en": "The sympathetic nervous system increases heart rate, contractility, and causes vasoconstriction. This is part of the 'fight-or-flight' response."
+  },
+  {
+    "subject_id": "cardiovascular",
+    "subject_name_he": "מערכת הקרדיווסקולארית",
+    "subject_name_en": "Cardiovascular System",
+    "type": "multiple_choice",
+    "question_he": "מה המשמעות של P גדול בא״ק״ג (ECG)?",
+    "question_en": "What does an enlarged P wave indicate on an ECG?",
+    "options_he": [
+      "הקטנה של החדרים",
+      "הרחבה של הפרוזודור",
+      "אוטם בשריר הלב",
+      "בעיה בהולכה"
+    ],
+    "options_en": [
+      "Ventricle enlargement",
+      "Atrial enlargement",
+      "Myocardial infarction",
+      "Conduction problem"
+    ],
+    "correct": 1,
+    "explanation_he": "גל P גדול בא״ק״ג מעיד על הרחבה (היפרטרופיה) של הפרוזודור, בגלל עומס יתר או מחלה בלב.",
+    "explanation_en": "An enlarged P wave on ECG indicates atrial enlargement (hypertrophy), often due to increased workload or cardiac disease."
+  },
+  {
+    "subject_id": "cardiovascular",
+    "subject_name_he": "מערכת הקרדיווסקולארית",
+    "subject_name_en": "Cardiovascular System",
+    "type": "true_false",
+    "question_he": "נוזל השדרה (CSF) מסופק בדם הכלילי של הלב.",
+    "question_en": "Cerebrospinal fluid (CSF) is supplied by the coronary blood supply of the heart.",
+    "correct": false,
+    "explanation_he": "נוזל השדרה מיוצר בעורקים של המוח דרך plexus choroid, לא מהדם הכלילי של הלב. זה נוזל דלק בתאים בריא, חיוני לתיקום חוט השדרה והמוח.",
+    "explanation_en": "CSF is produced by brain capillaries through the choroid plexus, not from heart blood. It is a clear fluid that surrounds and protects the brain and spinal cord."
+  }
+]

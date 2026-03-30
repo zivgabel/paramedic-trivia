@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin | Paramedic Trivia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #e74c3c; --primary-dark: #c0392b; --success: #27ae60;
+      --warning: #f39c12; --bg: #f4f6f9; --card: #fff; --text: #2c3e50;
+      --text-light: #7f8c8d; --border: #e8ecf1; --radius: 12px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Heebo', sans-serif; background: var(--bg); color: var(--text); }
+
+    /* Login */
+    .login-wrap { display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+    .login-card { background: var(--card); padding: 2.5rem; border-radius: var(--radius); box-shadow: 0 4px 20px rgba(0,0,0,0.08); width: 360px; text-align: center; }
+    .login-card h2 { margin-bottom: 1.5rem; }
+    .login-card input { width: 100%; padding: 0.75rem; margin-bottom: 0.75rem; border: 2px solid var(--border); border-radius: 8px; font-family: inherit; font-size: 1rem; }
+    .login-card button { width: 100%; padding: 0.75rem; background: var(--primary); color: white; border: none; border-radius: 8px; font-family: inherit; font-size: 1rem; font-weight: 600; cursor: pointer; }
+    .login-card button:hover { background: var(--primary-dark); }
+    .login-error { color: var(--primary); font-size: 0.9rem; margin-top: 0.5rem; }
+
+    /* Layout */
+    .app { display: none; }
+    .app.visible { display: block; }
+    .topbar { background: var(--primary); color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    .topbar h1 { font-size: 1.3rem; }
+    .topbar button { background: rgba(255,255,255,0.2); border: none; color: white; padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; font-family: inherit; }
+
+    .container { max-width: 1100px; margin: 0 auto; padding: 1.5rem; }
+
+    /* Stats */
+    .stats-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+    .stat-card { background: var(--card); padding: 1.2rem; border-radius: var(--radius); text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+    .stat-card .num { font-size: 2rem; font-weight: 700; color: var(--primary); }
+    .stat-card .label { font-size: 0.85rem; color: var(--text-light); }
+
+    /* Tabs */
+    .tabs { display: flex; gap: 0; margin-bottom: 1.5rem; border-bottom: 2px solid var(--border); }
+    .tab { padding: 0.75rem 1.5rem; cursor: pointer; font-weight: 600; color: var(--text-light); border-bottom: 2px solid transparent; margin-bottom: -2px; transition: all 0.2s; }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--primary); border-bottom-color: var(--primary); }
+
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    /* Table */
+    table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: var(--radius); overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+    th, td { padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--border); font-size: 0.9rem; }
+    th { background: #f8f9fc; font-weight: 600; color: var(--text-light); font-size: 0.8rem; text-transform: uppercase; }
+    tr:hover { background: #fafbfd; }
+
+    .badge { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 12px; font-size: 0.75rem; font-weight: 600; }
+    .badge-approved { background: #d5f5e3; color: #27ae60; }
+    .badge-pending { background: #fef3c7; color: #d97706; }
+    .badge-rejected { background: #fde8e8; color: #e74c3c; }
+
+    .action-btn { padding: 0.3rem 0.6rem; border: none; border-radius: 6px; cursor: pointer; font-size: 0.8rem; font-weight: 600; margin: 0 0.15rem; }
+    .action-btn.approve { background: #d5f5e3; color: #27ae60; }
+    .action-btn.reject { background: #fde8e8; color: #e74c3c; }
+    .action-btn.edit { background: #eef2ff; color: #4f46e5; }
+    .action-btn.delete { background: #fde8e8; color: #e74c3c; }
+
+    /* Filters */
+    .filters { display: flex; gap: 0.75rem; margin-bottom: 1rem; flex-wrap: wrap; align-items: center; }
+    .filters select, .filters input { padding: 0.5rem; border: 2px solid var(--border); border-radius: 8px; font-family: inherit; }
+
+    /* Modal */
+    .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 1000; display: flex; justify-content: center; align-items: center; }
+    .modal { background: var(--card); border-radius: var(--radius); padding: 2rem; width: 90%; max-width: 600px; max-height: 90vh; overflow-y: auto; }
+    .modal h3 { margin-bottom: 1rem; }
+    .modal .form-group { margin-bottom: 0.75rem; }
+    .modal label { display: block; font-weight: 600; margin-bottom: 0.2rem; font-size: 0.85rem; }
+    .modal input, .modal select, .modal textarea { width: 100%; padding: 0.5rem; border: 2px solid var(--border); border-radius: 8px; font-family: inherit; font-size: 0.9rem; }
+    .modal textarea { resize: vertical; }
+    .modal-actions { display: flex; gap: 0.5rem; margin-top: 1rem; }
+    .modal-actions button { padding: 0.6rem 1.2rem; border: none; border-radius: 8px; font-family: inherit; font-weight: 600; cursor: pointer; }
+    .btn-save { background: var(--primary); color: white; }
+    .btn-cancel { background: var(--border); color: var(--text); }
+
+    /* Import */
+    .import-area { background: var(--card); padding: 1.5rem; border-radius: var(--radius); }
+    .import-area textarea { width: 100%; height: 300px; font-family: monospace; font-size: 0.85rem; }
+    .import-area button { margin-top: 0.75rem; padding: 0.6rem 1.5rem; background: var(--primary); color: white; border: none; border-radius: 8px; font-family: inherit; font-weight: 600; cursor: pointer; }
+
+    .hidden { display: none !important; }
+    .truncate { max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  </style>
+</head>
+<body>
+  <!-- Login -->
+  <div class="login-wrap" id="loginWrap">
+    <div class="login-card">
+      <h2>🔐 Admin Login</h2>
+      <input type="text" id="loginUser" placeholder="Username" value="admin">
+      <input type="password" id="loginPass" placeholder="Password">
+      <button onclick="login()">Login</button>
+      <div class="login-error" id="loginError"></div>
+    </div>
+  </div>
+
+  <!-- App -->
+  <div class="app" id="adminApp">
+    <div class="topbar">
+      <h1>🚑 Paramedic Trivia Admin</h1>
+      <div>
+        <button onclick="window.open('/', '_blank')">🎮 Game</button>
+        <button onclick="logout()">Logout</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Stats -->
+      <div class="stats-row" id="statsRow"></div>
+
+      <!-- Tabs -->
+      <div class="tabs">
+        <div class="tab active" data-tab="questions" onclick="switchTab('questions')">Questions</div>
+        <div class="tab" data-tab="pending" onclick="switchTab('pending')">Pending ⏳</div>
+        <div class="tab" data-tab="subjects" onclick="switchTab('subjects')">Subjects</div>
+        <div class="tab" data-tab="import" onclick="switchTab('import')">Import JSON</div>
+        <div class="tab" data-tab="settings" onclick="switchTab('settings')">Settings</div>
+      </div>
+
+      <!-- Questions Tab -->
+      <div class="tab-content active" id="tab-questions">
+        <div class="filters">
+          <select id="filterSubject" onchange="loadQuestions()">
+            <option value="">All Subjects</option>
+          </select>
+          <select id="filterStatus" onchange="loadQuestions()">
+            <option value="">All Status</option>
+            <option value="approved">Approved</option>
+            <option value="pending">Pending</option>
+            <option value="rejected">Rejected</option>
+          </select>
+          <button class="action-btn edit" onclick="openAddQuestion()">+ Add Question</button>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Subject</th>
+              <th>Type</th>
+              <th>Question (HE)</th>
+              <th>Status</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="questionsBody"></tbody>
+        </table>
+        <div style="margin-top:1rem;display:flex;gap:0.5rem;justify-content:center" id="pagination"></div>
+      </div>
+
+      <!-- Pending Tab -->
+      <div class="tab-content" id="tab-pending">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Subject</th>
+              <th>Question (HE)</th>
+              <th>Submitted By</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="pendingBody"></tbody>
+        </table>
+      </div>
+
+      <!-- Subjects Tab -->
+      <div class="tab-content" id="tab-subjects">
+        <button class="action-btn edit" onclick="openAddSubject()" style="margin-bottom:1rem">+ Add Subject</button>
+        <table>
+          <thead>
+            <tr><th>Icon</th><th>ID</th><th>Name (HE)</th><th>Name (EN)</th><th>Questions</th><th>Actions</th></tr>
+          </thead>
+          <tbody id="subjectsBody"></tbody>
+        </table>
+      </div>
+
+      <!-- Import Tab -->
+      <div class="tab-content" id="tab-import">
+        <div class="import-area">
+          <h3>Import Questions (JSON)</h3>
+          <p style="color:var(--text-light);margin-bottom:0.75rem">Paste JSON array of questions. Use the Claude skill output format. Questions will be auto-approved.</p>
+          <textarea id="importJson" placeholder='[{"subject_id":"...", "subject_name_he":"...", "subject_name_en":"...", "type":"multiple_choice", "question_he":"...", "question_en":"...", "options_he":["..."], "options_en":["..."], "correct":0, "explanation_he":"...", "explanation_en":"..."}]'></textarea>
+          <button onclick="importQuestions()">Import</button>
+        </div>
+      </div>
+
+      <!-- Settings Tab -->
+      <div class="tab-content" id="tab-settings">
+        <div style="background:var(--card);padding:1.5rem;border-radius:var(--radius);max-width:400px">
+          <h3>Change Password</h3>
+          <div class="form-group" style="margin-top:1rem">
+            <label>Current Password</label>
+            <input type="password" id="currentPass">
+          </div>
+          <div class="form-group" style="margin-top:0.5rem">
+            <label>New Password</label>
+            <input type="password" id="newPass">
+          </div>
+          <button class="btn-save" style="margin-top:0.75rem" onclick="changePassword()">Update</button>
+          <hr style="margin:2rem 0">
+          <h3>Danger Zone</h3>
+          <button class="action-btn delete" style="margin-top:0.5rem;padding:0.5rem 1rem" onclick="clearLeaderboard()">Clear Leaderboard</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-overlay hidden" id="modal">
+    <div class="modal" id="modalContent"></div>
+  </div>
+
+  <script>
+    let token = localStorage.getItem('admin_token');
+    let subjects = [];
+    let currentPage = 1;
+
+    // Auth
+    async function login() {
+      const res = await fetch('/api/admin/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username: document.getElementById('loginUser').value, password: document.getElementById('loginPass').value }),
+      });
+      const data = await res.json();
+      if (data.error) {
+        document.getElementById('loginError').textContent = data.error;
+        return;
+      }
+      token = data.token;
+      localStorage.setItem('admin_token', token);
+      showApp();
+    }
+
+    function logout() {
+      token = null;
+      localStorage.removeItem('admin_token');
+      document.getElementById('adminApp').classList.remove('visible');
+      document.getElementById('loginWrap').style.display = 'flex';
+    }
+
+    async function authFetch(path, opts = {}) {
+      const res = await fetch(`/api/admin${path}`, {
+        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
+        ...opts,
+        body: opts.body ? JSON.stringify(opts.body) : undefined,
+      });
+      if (res.status === 401) { logout(); return null; }
+      return res.json();
+    }
+
+    async function showApp() {
+      const me = await authFetch('/me');
+      if (!me || me.error) { logout(); return; }
+      document.getElementById('loginWrap').style.display = 'none';
+      document.getElementById('adminApp').classList.add('visible');
+      loadStats();
+      loadSubjects();
+      loadQuestions();
+    }
+
+    // Stats
+    async function loadStats() {
+      const stats = await authFetch('/stats');
+      if (!stats) return;
+      document.getElementById('statsRow').innerHTML = `
+        <div class="stat-card"><div class="num">${stats.totalQuestions}</div><div class="label">Approved Questions</div></div>
+        <div class="stat-card"><div class="num" style="color:var(--warning)">${stats.pendingQuestions}</div><div class="label">Pending Review</div></div>
+        <div class="stat-card"><div class="num">${stats.totalSubjects}</div><div class="label">Subjects</div></div>
+        <div class="stat-card"><div class="num">${stats.totalPlayers}</div><div class="label">Unique Players</div></div>
+        <div class="stat-card"><div class="num">${stats.totalGames}</div><div class="label">Games Played</div></div>
+      `;
+    }
+
+    // Subjects
+    async function loadSubjects() {
+      const res = await fetch('/api/subjects');
+      subjects = await res.json();
+
+      // Populate filter
+      const sel = document.getElementById('filterSubject');
+      sel.innerHTML = '<option value="">All Subjects</option>';
+      subjects.forEach(s => {
+        sel.innerHTML += `<option value="${s.id}">${s.name_en} (${s.name_he})</option>`;
+      });
+
+      // Render subjects table
+      const tbody = document.getElementById('subjectsBody');
+      if (tbody) {
+        tbody.innerHTML = subjects.map(s => `
+          <tr>
+            <td>${s.icon}</td>
+            <td>${s.id}</td>
+            <td>${s.name_he}</td>
+            <td>${s.name_en}</td>
+            <td>${s.question_count}</td>
+            <td><button class="action-btn delete" onclick="deleteSubject('${s.id}')">Delete</button></td>
+          </tr>
+        `).join('');
+      }
+    }
+
+    // Questions
+    async function loadQuestions() {
+      const subject = document.getElementById('filterSubject').value;
+      const status = document.getElementById('filterStatus').value;
+      const params = new URLSearchParams({ page: currentPage, limit: 30 });
+      if (subject) params.set('subject_id', subject);
+      if (status) params.set('status', status);
+
+      const data = await authFetch(`/questions?${params}`);
+      if (!data) return;
+
+      const tbody = document.getElementById('questionsBody');
+      tbody.innerHTML = data.questions.map(q => `
+        <tr>
+          <td>${q.id}</td>
+          <td>${q.subject_name_en || q.subject_id}</td>
+          <td>${q.type === 'true_false' ? 'T/F' : 'MC'}</td>
+          <td class="truncate" title="${escHtml(q.question_he)}">${escHtml(q.question_he)}</td>
+          <td><span class="badge badge-${q.status}">${q.status}</span></td>
+          <td>
+            <button class="action-btn edit" onclick='editQuestion(${JSON.stringify(q).replace(/'/g, "&#39;")})'>Edit</button>
+            <button class="action-btn delete" onclick="deleteQuestion(${q.id})">Del</button>
+          </td>
+        </tr>
+      `).join('');
+
+      // Pagination
+      const totalPages = Math.ceil(data.total / data.limit);
+      const pag = document.getElementById('pagination');
+      pag.innerHTML = '';
+      for (let i = 1; i <= totalPages; i++) {
+        const btn = document.createElement('button');
+        btn.className = 'action-btn' + (i === currentPage ? ' edit' : '');
+        btn.textContent = i;
+        btn.onclick = () => { currentPage = i; loadQuestions(); };
+        pag.appendChild(btn);
+      }
+    }
+
+    // Pending
+    async function loadPending() {
+      const data = await authFetch('/questions?status=pending&limit=100');
+      if (!data) return;
+      const tbody = document.getElementById('pendingBody');
+      tbody.innerHTML = data.questions.map(q => `
+        <tr>
+          <td>${q.id}</td>
+          <td>${q.subject_name_en || q.subject_id}</td>
+          <td class="truncate" title="${escHtml(q.question_he)}">${escHtml(q.question_he)}</td>
+          <td>${q.submitted_by || 'Anonymous'}</td>
+          <td>
+            <button class="action-btn edit" onclick='editQuestion(${JSON.stringify(q).replace(/'/g, "&#39;")})'>Review</button>
+            <button class="action-btn approve" onclick="approveQuestion(${q.id})">Approve</button>
+            <button class="action-btn reject" onclick="rejectQuestion(${q.id})">Reject</button>
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    async function approveQuestion(id) {
+      await authFetch(`/questions/${id}/approve`, { method: 'POST' });
+      loadPending(); loadStats(); loadQuestions();
+    }
+
+    async function rejectQuestion(id) {
+      await authFetch(`/questions/${id}/reject`, { method: 'POST' });
+      loadPending(); loadStats();
+    }
+
+    async function deleteQuestion(id) {
+      if (!confirm('Delete this question?')) return;
+      await authFetch(`/questions/${id}`, { method: 'DELETE' });
+      loadQuestions(); loadStats();
+    }
+
+    async function deleteSubject(id) {
+      if (!confirm(`Delete subject "${id}" and all its questions?`)) return;
+      await authFetch(`/subjects/${id}`, { method: 'DELETE' });
+      loadSubjects(); loadQuestions(); loadStats();
+    }
+
+    // Edit/Add Modal
+    function openModal(html) {
+      document.getElementById('modalContent').innerHTML = html;
+      document.getElementById('modal').classList.remove('hidden');
+    }
+    function closeModal() { document.getElementById('modal').classList.add('hidden'); }
+
+    function editQuestion(q) {
+      const subjectOptions = subjects.map(s => `<option value="${s.id}" ${s.id === q.subject_id ? 'selected' : ''}>${s.name_en}</option>`).join('');
+      const optHe = q.options_he || ['','','',''];
+      const optEn = q.options_en || ['','','',''];
+
+      openModal(`
+        <h3>${q.id ? 'Edit' : 'Add'} Question</h3>
+        <div class="form-group"><label>Subject</label><select id="eq_subject">${subjectOptions}</select></div>
+        <div class="form-group"><label>Type</label><select id="eq_type"><option value="multiple_choice" ${q.type==='multiple_choice'?'selected':''}>Multiple Choice</option><option value="true_false" ${q.type==='true_false'?'selected':''}>True/False</option></select></div>
+        <div class="form-group"><label>Question (HE)</label><textarea id="eq_qhe" rows="2">${escHtml(q.question_he||'')}</textarea></div>
+        <div class="form-group"><label>Question (EN)</label><textarea id="eq_qen" rows="2">${escHtml(q.question_en||'')}</textarea></div>
+        <div id="eq_mc_fields">
+          <div class="form-group"><label>Options HE (comma-separated)</label><input id="eq_ohe" value="${optHe.map(escHtml).join(', ')}"></div>
+          <div class="form-group"><label>Options EN (comma-separated)</label><input id="eq_oen" value="${optEn.map(escHtml).join(', ')}"></div>
+        </div>
+        <div class="form-group"><label>Correct (index 0-3 for MC, true/false for TF)</label><input id="eq_correct" value="${q.correct||'0'}"></div>
+        <div class="form-group"><label>Explanation HE</label><textarea id="eq_ehe" rows="2">${escHtml(q.explanation_he||'')}</textarea></div>
+        <div class="form-group"><label>Explanation EN</label><textarea id="eq_een" rows="2">${escHtml(q.explanation_en||'')}</textarea></div>
+        <div class="form-group"><label>Status</label><select id="eq_status"><option value="approved" ${q.status==='approved'?'selected':''}>Approved</option><option value="pending" ${q.status==='pending'?'selected':''}>Pending</option><option value="rejected" ${q.status==='rejected'?'selected':''}>Rejected</option></select></div>
+        <div class="modal-actions">
+          <button class="btn-save" onclick="saveQuestion(${q.id || 0})">Save</button>
+          <button class="btn-cancel" onclick="closeModal()">Cancel</button>
+        </div>
+      `);
+    }
+
+    function openAddQuestion() {
+      editQuestion({ type: 'multiple_choice', status: 'approved', subject_id: subjects[0]?.id, options_he: ['','','',''], options_en: ['','','',''], correct: '0' });
+    }
+
+    async function saveQuestion(id) {
+      const type = document.getElementById('eq_type').value;
+      const data = {
+        subject_id: document.getElementById('eq_subject').value,
+        type,
+        question_he: document.getElementById('eq_qhe').value,
+        question_en: document.getElementById('eq_qen').value,
+        correct: document.getElementById('eq_correct').value,
+        explanation_he: document.getElementById('eq_ehe').value,
+        explanation_en: document.getElementById('eq_een').value,
+        status: document.getElementById('eq_status').value,
+      };
+      if (type === 'multiple_choice') {
+        data.options_he = document.getElementById('eq_ohe').value.split(',').map(s => s.trim());
+        data.options_en = document.getElementById('eq_oen').value.split(',').map(s => s.trim());
+      }
+
+      if (id) {
+        await authFetch(`/questions/${id}`, { method: 'PUT', body: data });
+      } else {
+        await authFetch('/questions', { method: 'POST', body: data });
+      }
+      closeModal();
+      loadQuestions(); loadStats();
+    }
+
+    function openAddSubject() {
+      openModal(`
+        <h3>Add Subject</h3>
+        <div class="form-group"><label>ID (lowercase, no spaces)</label><input id="ns_id" placeholder="e.g. pharmacology"></div>
+        <div class="form-group"><label>Name (HE)</label><input id="ns_he" placeholder="פרמקולוגיה"></div>
+        <div class="form-group"><label>Name (EN)</label><input id="ns_en" placeholder="Pharmacology"></div>
+        <div class="form-group"><label>Icon (emoji)</label><input id="ns_icon" value="📚"></div>
+        <div class="modal-actions">
+          <button class="btn-save" onclick="saveSubject()">Save</button>
+          <button class="btn-cancel" onclick="closeModal()">Cancel</button>
+        </div>
+      `);
+    }
+
+    async function saveSubject() {
+      await authFetch('/subjects', {
+        method: 'POST',
+        body: {
+          id: document.getElementById('ns_id').value,
+          name_he: document.getElementById('ns_he').value,
+          name_en: document.getElementById('ns_en').value,
+          icon: document.getElementById('ns_icon').value || '📚',
+        }
+      });
+      closeModal();
+      loadSubjects();
+    }
+
+    // Import
+    async function importQuestions() {
+      const textarea = document.getElementById('importJson');
+      let questions;
+      try {
+        questions = JSON.parse(textarea.value);
+      } catch(e) {
+        alert('Invalid JSON: ' + e.message);
+        return;
+      }
+      const data = await authFetch('/import', { method: 'POST', body: { questions } });
+      if (data) {
+        alert(`Imported ${data.imported} questions!`);
+        textarea.value = '';
+        loadQuestions(); loadSubjects(); loadStats();
+      }
+    }
+
+    // Settings
+    async function changePassword() {
+      const data = await authFetch('/change-password', {
+        method: 'POST',
+        body: { current_password: document.getElementById('currentPass').value, new_password: document.getElementById('newPass').value }
+      });
+      if (data?.ok) alert('Password updated!');
+      else alert(data?.error || 'Error');
+    }
+
+    async function clearLeaderboard() {
+      if (!confirm('Clear all leaderboard entries?')) return;
+      await authFetch('/leaderboard', { method: 'DELETE' });
+      alert('Leaderboard cleared!');
+      loadStats();
+    }
+
+    // Tabs
+    function switchTab(name) {
+      document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === name));
+      document.querySelectorAll('.tab-content').forEach(t => t.classList.toggle('active', t.id === `tab-${name}`));
+      if (name === 'pending') loadPending();
+      if (name === 'questions') loadQuestions();
+      if (name === 'subjects') loadSubjects();
+    }
+
+    function escHtml(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+    // Init
+    if (token) showApp();
+    document.getElementById('loginPass').addEventListener('keypress', e => { if (e.key === 'Enter') login(); });
+    document.getElementById('modal').addEventListener('click', e => { if (e.target === document.getElementById('modal')) closeModal(); });
+  </script>
+</body>
+</html>
